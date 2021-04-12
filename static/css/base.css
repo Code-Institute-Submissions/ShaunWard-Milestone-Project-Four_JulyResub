@@ -1,7 +1,3 @@
-body {
-    background: url('/media/Canyonlands_National_Park.jpeg') no-repeat center center fixed;
-    background-size: cover;
-    height: 500px;
-    color: #555;
-    font-family: 'Lato';
+p {
+    color: red;
 }
