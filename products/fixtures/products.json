@@ -8,7 +8,7 @@
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image001",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -22,7 +22,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image002",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -36,7 +36,7 @@
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image003",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -50,7 +50,7 @@
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image004",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -64,7 +64,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image005",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -78,7 +78,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image006",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -92,7 +92,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image007",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -106,7 +106,7 @@
             "dimensions": "96 x 59 cm",
             "price": "56.64",
             "sku": "image008",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -120,7 +120,7 @@
             "dimensions": "64 x 113 cm",
             "price": "72.32",
             "sku": "image009",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -134,7 +134,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image010",
-            "category": "",
+            "category": 3,
             "is_sold": false
         }
     },
@@ -148,7 +148,7 @@
             "dimensions": "64 x 96 cm",
             "price": "61.44",
             "sku": "image011",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -162,7 +162,7 @@
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image012",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -176,7 +176,7 @@
             "dimensions": "64 x 88 cm",
             "price": "56.32",
             "sku": "image013",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -190,7 +190,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image014",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -204,7 +204,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image015",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -218,7 +218,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image016",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -232,7 +232,7 @@
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image017",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -246,7 +246,7 @@
             "dimensions": "96 x 61 cm",
             "price": "58.56",
             "sku": "image018",
-            "category": "",
+            "category": 4,
             "is_sold": false
         }
     },
@@ -260,7 +260,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image019",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -274,7 +274,7 @@
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image020",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -288,7 +288,7 @@
             "dimensions": "96 x 51 cm",
             "price": "",
             "sku": "image021",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -302,7 +302,7 @@
             "dimensions": "64 x 96 cm",
             "price": "61.44",
             "sku": "image022",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -316,7 +316,7 @@
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image023",
-            "category": "",
+            "category": 3,
             "is_sold": false
         }
     },
@@ -330,7 +330,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image024",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -344,7 +344,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image025",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -358,7 +358,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image026",
-            "category": "",
+            "category": 3,
             "is_sold": false
         }
     },
@@ -372,7 +372,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image027",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -386,7 +386,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image028",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -400,7 +400,7 @@
             "dimensions": "96 x 54 cm",
             "price": "51.84",
             "sku": "image029",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -414,7 +414,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image030",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -428,7 +428,7 @@
             "dimensions": "96 x 61 cm",
             "price": "58.56",
             "sku": "image031",
-            "category": "",
+            "category": 4,
             "is_sold": false
         }
     },
@@ -437,12 +437,12 @@
         "pk": 32,
         "fields": {
             "name": "Miramar Beach",
-            "location": "Floride",
+            "location": "Florida",
             "description": "Miramar Beach in Florida",
             "dimensions": "64 x 110 cm",
             "price": "70.40",
             "sku": "image032",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -456,7 +456,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image033",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -470,7 +470,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image034",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -484,7 +484,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image035",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -498,7 +498,7 @@
             "dimensions": "96 x 56 cm",
             "price": "53.76",
             "sku": "image036",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -512,7 +512,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image037",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -526,7 +526,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image038",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -540,7 +540,7 @@
             "dimensions": "96 x 65 cm",
             "price": "62.40",
             "sku": "image039",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -554,7 +554,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image040",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -568,7 +568,7 @@
             "dimensions": "64 x 75 cm",
             "price": "48.00",
             "sku": "image041",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -582,7 +582,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image042",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -596,7 +596,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image043",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -610,7 +610,7 @@
             "dimensions": "96 x 54 cm",
             "price": "51.84",
             "sku": "image044",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -624,7 +624,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image045",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -638,7 +638,7 @@
             "dimensions": "96 x 65 cm",
             "price": "62.40",
             "sku": "image046",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -652,7 +652,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image047",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -666,7 +666,7 @@
             "dimensions": "64 x 96 cm",
             "price": "61.44",
             "sku": "image048",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -680,7 +680,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image049",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -694,7 +694,7 @@
             "dimensions": "96 x 81 cm",
             "price": "77.76",
             "sku": "image050",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -708,7 +708,7 @@
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image051",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -722,7 +722,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image052",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -736,7 +736,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image053",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -750,7 +750,7 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image054",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -764,7 +764,7 @@
             "dimensions": "96 x 76 cm",
             "price": "72.96",
             "sku": "image055",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -778,7 +778,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image056",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -792,7 +792,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image057",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -806,7 +806,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image058",
-            "category": "",
+            "category": 3,
             "is_sold": false
         }
     },
@@ -820,7 +820,7 @@
             "dimensions": "96 x 54 cm",
             "price": "51.84",
             "sku": "image059",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -834,7 +834,7 @@
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image060",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -848,7 +848,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image061",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -862,7 +862,7 @@
             "dimensions": "96 x 68 cm",
             "price": "65.28",
             "sku": "image062",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -876,7 +876,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image063",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -890,7 +890,7 @@
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image064",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -904,7 +904,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image065",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -918,7 +918,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image066",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -932,7 +932,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image067",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -946,7 +946,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image068",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -960,7 +960,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image069",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -974,7 +974,7 @@
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image070",
-            "category": "",
+            "category": 3,
             "is_sold": false
         }
     },
@@ -988,7 +988,7 @@
             "dimensions": "96 x 36 cm",
             "price": "34.56",
             "sku": "image071",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -1002,7 +1002,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image072",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -1016,7 +1016,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image073",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -1030,7 +1030,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image074",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -1044,7 +1044,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image075",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -1058,7 +1058,7 @@
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image076",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -1072,7 +1072,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image077",
-            "category": "",
+            "category": 4,
             "is_sold": false
         }
     },
@@ -1086,7 +1086,7 @@
             "dimensions": "64 x 100 cm",
             "price": "64.00",
             "sku": "image078",
-            "category": "",
+            "category": 2,
             "is_sold": false
         }
     },
@@ -1100,7 +1100,7 @@
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image079",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -1114,7 +1114,7 @@
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image080",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -1128,7 +1128,7 @@
             "dimensions": "96 x 41 cm",
             "price": "39.36",
             "sku": "image081",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -1142,7 +1142,7 @@
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image082",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
     },
@@ -1156,8 +1156,8 @@
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image083",
-            "category": "",
+            "category": 1,
             "is_sold": false
         }
-    },
+    }
 ]
