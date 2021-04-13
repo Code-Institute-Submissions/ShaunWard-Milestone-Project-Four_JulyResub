@@ -1,45 +1,132 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone-Project-Four - Earth Images
+    
+## Description
 
-Welcome ShaunWard,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+## User Design/Experience
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+### Design
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+- As a user I want to, have an easy way to keep track of things that I have watched and view them easily.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+## Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Features currently on the site
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Navigation bar
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  
+#### Account Creation
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  
+#### Login Ability
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
----
+#### Responsive Design
 
-Happy coding!
+- The application is able to be used in a web browser on any size device ranging from smartphone to large screens such as desktops.
+
+### Features left to implement
+
+- An ability for one user to share their entry with another using to suggest a programme/film.
+- A page containing data about the entries such as:
+  1. numbers of entries against a certain streaming service
+  2. a quick view of all the ratings given, and an average rating
+- Using an API it may also be possible to suggest programmes/films to the user based on their entries.
+
+## Links
+
+### Wireframes
+
+
+
+## Testing
+
+### Manual Testing
+
+Google Developer tools in the chrome broswer was used extensively throughout the project as an efficient error checking method.
+
+Further manual testing was done to ensure each aspect of the application worked as expected.
+
+#### Front/Home Page
+
+
+
+#### Login Page
+
+
+
+#### Register Page
+
+
+
+#### My List Page
+
+
+
+#### Add to list Page
+
+
+
+#### Edit page
+
+
+
+#### Testing user stories
+
+
+
+### Online testing tools
+
+- [HTML Validator](https://validator.w3.org/) has been used to validate the HTML.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [Pep8](http://pep8online.com/) to check code for PEP8 requirements
+
+## Technologies
+
+### Languages/Technologies/Tools Used
+
+#### Languages
+
+- HTML
+- CSS
+- Python
+
+#### Frameworks
+
+
+
+#### Technologies/Tools
+
+- [Heroku](https://www.heroku.com) to deploy the application
+- [Gitpod IDE](https://www.gitpod.io)
+- Git & [Github](https://github.com/) for version control
+- [Balsamiq](https://balsamiq.com/) to create wireframes
+- [Am I Responsive](http://ami.responsivedesign.is/#)
+
+## Deployment
+
+The project has been deployed using Heroku, and is available to view [here]()
+
+### Local Deployment
+
+
+
+### Heroku via Github Deployment
+
+
+
+## Acknowledgements
+
+I'd like to acknowledge my mentor, Felipe Souza Alarcon, for his support throughout this project.
