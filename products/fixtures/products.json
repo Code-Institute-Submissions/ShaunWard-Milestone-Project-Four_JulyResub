@@ -3,12 +3,12 @@
         "pk": 1,
         "fields": {
             "name": "Almere Blossom",
-            "location": "The Netherlands",
             "description": "Almere Blossom in The Netherlands",
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image001",
             "category": 2,
+            "image": "Almere Blossom",
             "is_sold": false
         }
     },
@@ -17,12 +17,12 @@
         "pk": 2,
         "fields": {
             "name": "Amarilla Lagoon",
-            "location": "Ecuador",
             "description": "Amarilla Lagoon in Ecuador",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image002",
             "category": 1,
+            "image": "Amarilla Lagoon",
             "is_sold": false
         }
     },
@@ -31,12 +31,12 @@
         "pk": 3,
         "fields": {
             "name": "Arches National Park",
-            "location": "Utah",
             "description": "Arches National Park in Utah",
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image003",
             "category": 1,
+            "image": "Arches National Park",
             "is_sold": false
         }
     },
@@ -45,12 +45,12 @@
         "pk": 4,
         "fields": {
             "name": "Baltic Sea Coast",
-            "location": "Lithuania",
             "description": "Baltic Sea Coast in Lithuania",
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image004",
             "category": 2,
+            "image": "Baltic Sea Coast",
             "is_sold": false
         }
     },
@@ -59,12 +59,12 @@
         "pk": 5,
         "fields": {
             "name": "Basalt and Black Sand",
-            "location": "Iceland",
             "description": "Basalt and black sand in Iceland",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image005",
             "category": 2,
+            "image": "Basalt and Black Sand",
             "is_sold": false
         }
     },
@@ -73,12 +73,12 @@
         "pk": 6,
         "fields": {
             "name": "Bluebells of Spring",
-            "location": "England",
             "description": "Bluebells of Spring in England",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image006",
             "category": 2,
+            "image": "Bluebells of Spring",
             "is_sold": false
         }
     },
@@ -87,12 +87,12 @@
         "pk": 7,
         "fields": {
             "name": "Bryce Canyon National Park",
-            "location": "Utah",
             "description": "Bryce Canyon National Park in Utah",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image007",
             "category": 1,
+            "image": "Bryce Canyon National Park",
             "is_sold": false
         }
     },
@@ -101,12 +101,12 @@
         "pk": 8,
         "fields": {
             "name": "Canyons of the Escalante",
-            "location": "Utah",
             "description": "Canyons of the Escalante in Utah",
             "dimensions": "96 x 59 cm",
             "price": "56.64",
             "sku": "image008",
             "category": 1,
+            "image": "Canyons of the Escalante",
             "is_sold": false
         }
     },
@@ -115,12 +115,12 @@
         "pk": 9,
         "fields": {
             "name": "Cherry Blossom",
-            "location": "Amsterdam",
             "description": "Cherry Blossom in Amsterdam",
             "dimensions": "64 x 113 cm",
             "price": "72.32",
             "sku": "image009",
             "category": 2,
+            "image": "Cherry Blossom",
             "is_sold": false
         }
     },
@@ -129,12 +129,12 @@
         "pk": 10,
         "fields": {
             "name": "Cherry Blossom Forest",
-            "location": "Yokohama",
             "description": "Cherry Blossom in Yokohama",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image010",
             "category": 3,
+            "image": "Cherry Blossom Forest",
             "is_sold": false
         }
     },
@@ -143,12 +143,12 @@
         "pk": 11,
         "fields": {
             "name": "Cloud Explosion",
-            "location": "Washington",
             "description": "Cloud Explosion in Washington",
             "dimensions": "64 x 96 cm",
             "price": "61.44",
             "sku": "image011",
             "category": 1,
+            "image": "Cloud Explosion",
             "is_sold": false
         }
     },
@@ -157,12 +157,12 @@
         "pk": 12,
         "fields": {
             "name": "Convict Lake",
-            "location": "California",
             "description": "Convict Lake, Mammoth Lakes in California",
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image012",
             "category": 1,
+            "image": "Convict Lake",
             "is_sold": false
         }
     },
@@ -171,12 +171,12 @@
         "pk": 13,
         "fields": {
             "name": "Dunmore Head",
-            "location": "Ireland",
             "description": "Dunmore Head Kerry in Ireland",
             "dimensions": "64 x 88 cm",
             "price": "56.32",
             "sku": "image013",
             "category": 2,
+            "image": "Dunmore Head",
             "is_sold": false
         }
     },
@@ -185,12 +185,12 @@
         "pk": 14,
         "fields": {
             "name": "El Doctor",
-            "location": "Mexico",
             "description": "El Doctor in Queretaro, Mexico",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image014",
             "category": 1,
+            "image": "El Doctor",
             "is_sold": false
         }
     },
@@ -199,12 +199,12 @@
         "pk": 15,
         "fields": {
             "name": "Eruption",
-            "location": "Iceland",
             "description": "Eruption in Iceland",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image015",
             "category": 2,
+            "image": "Eruption",
             "is_sold": false
         }
     },
@@ -213,12 +213,12 @@
         "pk": 16,
         "fields": {
             "name": "Estuary on Vancouver Island",
-            "location": "Canada",
             "description": "Estuary on Vancouver Island, Canada",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image016",
             "category": 1,
+            "image": "Estuary on Vancouver Island",
             "is_sold": false
         }
     },
@@ -227,12 +227,12 @@
         "pk": 17,
         "fields": {
             "name": "Fagradalsfjall",
-            "location": "Iceland",
             "description": "Fagradalsfjall in Iceland",
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image017",
             "category": 2,
+            "image": "Fagradalsfjall",
             "is_sold": false
         }
     },
@@ -241,12 +241,12 @@
         "pk": 18,
         "fields": {
             "name": "Glendhu Bay",
-            "location": "New Zealand",
             "description": "Glendhu Bay in New Zealand",
             "dimensions": "96 x 61 cm",
             "price": "58.56",
             "sku": "image018",
             "category": 4,
+            "image": "Glendhu Bay",
             "is_sold": false
         }
     },
@@ -255,12 +255,12 @@
         "pk": 19,
         "fields": {
             "name": "Grand Prismatic Spring",
-            "location": "Yellowstone",
             "description": "Grand Prismatic Spring Yellowstone",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image019",
             "category": 1,
+            "image": "Grand Prismatic Spring",
             "is_sold": false
         }
     },
@@ -269,12 +269,12 @@
         "pk": 20,
         "fields": {
             "name": "Grand Teton National Park Water",
-            "location": "Wyoming",
             "description": "Grand Teton National Park in Wyoming",
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image020",
             "category": 1,
+            "image": "Grand Teton National Park Water",
             "is_sold": false
         }
     },
@@ -283,12 +283,12 @@
         "pk": 21,
         "fields": {
             "name": "Grand Teton National Park Tree",
-            "location": "Wyoming",
             "description": "Grand Teton National Park in Wyoming",
             "dimensions": "96 x 51 cm",
             "price": "",
             "sku": "image021",
             "category": 1,
+            "image": "Grand Teton National Park Tree",
             "is_sold": false
         }
     },
@@ -297,12 +297,12 @@
         "pk": 22,
         "fields": {
             "name": "Hanksville",
-            "location": "Utah",
             "description": "Hanksville in Utah",
             "dimensions": "64 x 96 cm",
             "price": "61.44",
             "sku": "image022",
             "category": 1,
+            "image": "Hanksville",
             "is_sold": false
         }
     },
@@ -311,12 +311,12 @@
         "pk": 23,
         "fields": {
             "name": "Himachal Pradesh",
-            "location": "India",
             "description": "Himachal Pradesh in India",
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image023",
             "category": 3,
+            "image": "Himachal Pradesh",
             "is_sold": false
         }
     },
@@ -325,12 +325,12 @@
         "pk": 24,
         "fields": {
             "name": "IJsselmeer",
-            "location": "The Netherlands",
             "description": "IJsselmeer in The Netherlands",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image024",
             "category": 2,
+            "image": "IJsselmeer",
             "is_sold": false
         }
     },
@@ -339,12 +339,12 @@
         "pk": 25,
         "fields": {
             "name": "Jasper National Park",
-            "location": "Canada",
             "description": "Jasper National Park in Alberta, Canada",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image025",
             "category": 1,
+            "image": "Jasper National Park",
             "is_sold": false
         }
     },
@@ -353,12 +353,12 @@
         "pk": 26,
         "fields": {
             "name": "Kamikõchi Hiking Trail",
-            "location": "Japan",
             "description": "Kamikõchi hiking trail in Japan",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image026",
             "category": 3,
+            "image": "Kamikõchi Hiking Trail",
             "is_sold": false
         }
     },
@@ -367,12 +367,12 @@
         "pk": 27,
         "fields": {
             "name": "Lake Reflection",
-            "location": "Indiana",
             "description": "Lake Reflection in Indiana",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image027",
             "category": 1,
+            "image": "Lake Reflection",
             "is_sold": false
         }
     },
@@ -381,12 +381,12 @@
         "pk": 28,
         "fields": {
             "name": "Lesvos",
-            "location": "Greece",
             "description": "Lesvos in Greece",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image028",
             "category": 2,
+            "image": "Lesvos",
             "is_sold": false
         }
     },
@@ -395,12 +395,12 @@
         "pk": 29,
         "fields": {
             "name": "Livno",
-            "location": "Bosnia and Hercegovina",
             "description": "Livno in Bosnia and Hercegovina",
             "dimensions": "96 x 54 cm",
             "price": "51.84",
             "sku": "image029",
             "category": 2,
+            "image": "Livno",
             "is_sold": false
         }
     },
@@ -409,12 +409,12 @@
         "pk": 30,
         "fields": {
             "name": "Mammoth Lakes",
-            "location": "California",
             "description": "Mammoth Lakes in California",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image030",
             "category": 1,
+            "image": "Mammoth Lakes",
             "is_sold": false
         }
     },
@@ -423,12 +423,12 @@
         "pk": 31,
         "fields": {
             "name": "Matai Bay",
-            "location": "New Zealand",
             "description": "Matai Bay in New Zealand",
             "dimensions": "96 x 61 cm",
             "price": "58.56",
             "sku": "image031",
             "category": 4,
+            "image": "Matai Bay",
             "is_sold": false
         }
     },
@@ -437,12 +437,12 @@
         "pk": 32,
         "fields": {
             "name": "Miramar Beach",
-            "location": "Florida",
             "description": "Miramar Beach in Florida",
             "dimensions": "64 x 110 cm",
             "price": "70.40",
             "sku": "image032",
             "category": 1,
+            "image": "Miramar Beach",
             "is_sold": false
         }
     },
@@ -451,12 +451,12 @@
         "pk": 33,
         "fields": {
             "name": "Morning Hike",
-            "location": "Belgium",
             "description": "Morning Hike in Belgium",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image033",
             "category": 2,
+            "image": "Morning Hike",
             "is_sold": false
         }
     },
@@ -465,12 +465,12 @@
         "pk": 34,
         "fields": {
             "name": "Morning Light",
-            "location": "Washington",
             "description": "Morning Light in Washington",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image034",
             "category": 1,
+            "image": "Morning Light",
             "is_sold": false
         }
     },
@@ -479,12 +479,12 @@
         "pk": 35,
         "fields": {
             "name": "Mornington",
-            "location": "Peninsula",
             "description": "Mornington in Peninsula",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image035",
             "category": 2,
+            "image": "Mornington",
             "is_sold": false
         }
     },
@@ -493,12 +493,12 @@
         "pk": 36,
         "fields": {
             "name": "Mount Shasta",
-            "location": "California",
             "description": "Mount Shasta in California",
             "dimensions": "96 x 56 cm",
             "price": "53.76",
             "sku": "image036",
             "category": 1,
+            "image": "Mount Shasta",
             "is_sold": false
         }
     },
@@ -507,12 +507,12 @@
         "pk": 37,
         "fields": {
             "name": "Mount Whitney",
-            "location": "California",
             "description": "Mount Whitney in California",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image037",
             "category": 1,
+            "image": "Mount Whitney",
             "is_sold": false
         }
     },
@@ -521,12 +521,12 @@
         "pk": 38,
         "fields": {
             "name": "Mountains",
-            "location": "Canada",
             "description": "Mountains in Jasper, Canada",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image038",
             "category": 1,
+            "image": "Mountains",
             "is_sold": false
         }
     },
@@ -535,12 +535,12 @@
         "pk": 39,
         "fields": {
             "name": "Mudumalai National Park",
-            "location": "Indiana",
             "description": "Mudumalai National Park in Indiana",
             "dimensions": "96 x 65 cm",
             "price": "62.40",
             "sku": "image039",
             "category": 1,
+            "image": "Mudumalai National Park",
             "is_sold": false
         }
     },
@@ -549,12 +549,12 @@
         "pk": 40,
         "fields": {
             "name": "National Lakeshore",
-            "location": "Michigan",
             "description": "National Lakeshore in Munising, Michigan",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image040",
             "category": 1,
+            "image": "National Lakeshore",
             "is_sold": false
         }
     },
@@ -563,12 +563,12 @@
         "pk": 41,
         "fields": {
             "name": "New River",
-            "location": "Virginia",
             "description": "New River West in Virginia",
             "dimensions": "64 x 75 cm",
             "price": "48.00",
             "sku": "image041",
             "category": 1,
+            "image": "New River",
             "is_sold": false
         }
     },
@@ -577,12 +577,12 @@
         "pk": 42,
         "fields": {
             "name": "Northern Lights",
-            "location": "Iceland",
             "description": "Northern Lights in Iceland",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image042",
             "category": 2,
+            "image": "Northern Lights",
             "is_sold": false
         }
     },
@@ -591,12 +591,12 @@
         "pk": 43,
         "fields": {
             "name": "Old Flowers Road",
-            "location": "Colorado",
             "description": "Old Flowers Road in Colorado",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image043",
             "category": 1,
+            "image": "Old Flowers Road",
             "is_sold": false
         }
     },
@@ -605,12 +605,12 @@
         "pk": 44,
         "fields": {
             "name": "Oljato-Monument Valley",
-            "location": "Utah",
             "description": "Oljato-Monument Valley in Utah",
             "dimensions": "96 x 54 cm",
             "price": "51.84",
             "sku": "image044",
             "category": 1,
+            "image": "Oljato-Monument Valley",
             "is_sold": false
         }
     },
@@ -619,12 +619,12 @@
         "pk": 45,
         "fields": {
             "name": "Olympus National Park",
-            "location": "Greece",
             "description": "Olympus National Park in Greece",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image045",
             "category": 2,
+            "image": "Olympus National Park",
             "is_sold": false
         }
     },
@@ -633,12 +633,12 @@
         "pk": 46,
         "fields": {
             "name": "Pastel Sunset",
-            "location": "Utah",
             "description": "Pastel Sunset in Utah backcountry",
             "dimensions": "96 x 65 cm",
             "price": "62.40",
             "sku": "image046",
             "category": 1,
+            "image": "Pastel Sunset",
             "is_sold": false
         }
     },
@@ -647,12 +647,12 @@
         "pk": 47,
         "fields": {
             "name": "Picture Lake",
-            "location": "Washington",
             "description": "Picture Lake in Washington",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image047",
             "category": 1,
+            "image": "Picture Lake",
             "is_sold": false
         }
     },
@@ -661,12 +661,12 @@
         "pk": 48,
         "fields": {
             "name": "Pinnacles National Park",
-            "location": "California",
             "description": "Pinnacles National Park in California",
             "dimensions": "64 x 96 cm",
             "price": "61.44",
             "sku": "image048",
             "category": 1,
+            "image": "Pinnacles National Park",
             "is_sold": false
         }
     },
@@ -675,12 +675,12 @@
         "pk": 49,
         "fields": {
             "name": "Reflections",
-            "location": "Yosemite",
             "description": "Reflections in Yosemite",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image049",
             "category": 1,
+            "image": "Reflections",
             "is_sold": false
         }
     },
@@ -689,12 +689,12 @@
         "pk": 50,
         "fields": {
             "name": "Reynisfjara",
-            "location": "Iceland",
             "description": "Reynisfjara in Iceland",
             "dimensions": "96 x 81 cm",
             "price": "77.76",
             "sku": "image050",
             "category": 2,
+            "image": "Reynisfjara",
             "is_sold": false
         }
     },
@@ -703,12 +703,12 @@
         "pk": 51,
         "fields": {
             "name": "Rock Waterfall",
-            "location": "Germany",
             "description": "Rock Waterfall in Germany",
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image051",
             "category": 2,
+            "image": "Rock Waterfall",
             "is_sold": false
         }
     },
@@ -717,12 +717,12 @@
         "pk": 52,
         "fields": {
             "name": "Santa Cruz",
-            "location": "California",
             "description": "Santa Cruz in California",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image052",
             "category": 1,
+            "image": "Santa Cruz",
             "is_sold": false
         }
     },
@@ -731,12 +731,12 @@
         "pk": 53,
         "fields": {
             "name": "Saxony",
-            "location": "Germany",
             "description": "Saxony in Germany",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image053",
             "category": 2,
+            "image": "Saxony",
             "is_sold": false
         }
     },
@@ -745,12 +745,12 @@
         "pk": 54,
         "fields": {
             "name": "Highlands",
-            "location": "Scotland",
             "description": "Scottish Highlands",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image054",
             "category": 2,
+            "image": "Highlands",
             "is_sold": false
         }
     },
@@ -759,12 +759,12 @@
         "pk": 55,
         "fields": {
             "name": "Seaside Caves",
-            "location": "Unknown",
             "description": "Seaside Caves",
             "dimensions": "96 x 76 cm",
             "price": "72.96",
             "sku": "image055",
             "category": 1,
+            "image": "Seaside Caves",
             "is_sold": false
         }
     },
@@ -773,12 +773,12 @@
         "pk": 56,
         "fields": {
             "name": "Serene Forest",
-            "location": "Sweden",
             "description": "Serene forest in Sweden",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image056",
             "category": 2,
+            "image": "Serene Forest",
             "is_sold": false
         }
     },
@@ -787,12 +787,12 @@
         "pk": 57,
         "fields": {
             "name": "Sheldon",
-            "location": "Iowa",
             "description": "Sheldon in Iowa",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image057",
             "category": 1,
+            "image": "Sheldon",
             "is_sold": false
         }
     },
@@ -801,12 +801,12 @@
         "pk": 58,
         "fields": {
             "name": "Shimla Himachal Pradesh",
-            "location": "India",
             "description": "Shimla Himachal Pradesh in India",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image058",
             "category": 3,
+            "image": "Shimla Himachal Pradesh",
             "is_sold": false
         }
     },
@@ -815,12 +815,12 @@
         "pk": 59,
         "fields": {
             "name": "Sierras East Side",
-            "location": "Nevada",
             "description": "Sierras East Side in Nevada",
             "dimensions": "96 x 54 cm",
             "price": "51.84",
             "sku": "image059",
             "category": 1,
+            "image": "Sierras East Side",
             "is_sold": false
         }
     },
@@ -829,12 +829,12 @@
         "pk": 60,
         "fields": {
             "name": "Silver Falls",
-            "location": "Oregon",
             "description": "Silver Falls in Oregon",
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image060",
             "category": 1,
+            "image": "Silver Falls",
             "is_sold": false
         }
     },
@@ -843,12 +843,12 @@
         "pk": 61,
         "fields": {
             "name": "Slate River",
-            "location": "Colorado",
             "description": "Slate River in Colorado",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image061",
             "category": 1,
+            "image": "Slate River",
             "is_sold": false
         }
     },
@@ -857,12 +857,12 @@
         "pk": 62,
         "fields": {
             "name": "Snake River",
-            "location": "Idaho",
             "description": "Snake River in Idaho",
             "dimensions": "96 x 68 cm",
             "price": "65.28",
             "sku": "image062",
             "category": 1,
+            "image": "Snake River",
             "is_sold": false
         }
     },
@@ -871,12 +871,12 @@
         "pk": 63,
         "fields": {
             "name": "Snow Canyon State Park",
-            "location": "Utah",
             "description": "Snow Canyon State Park in Utah",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image063",
             "category": 1,
+            "image": "Snow Canyon State Park",
             "is_sold": false
         }
     },
@@ -885,12 +885,12 @@
         "pk": 64,
         "fields": {
             "name": "South Rim of the Grand Cannon",
-            "location": "San Francisco",
             "description": "South Rim of the Grand Cannon in San Francisco",
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image064",
             "category": 1,
+            "image": "South Rim of the Grand Cannon",
             "is_sold": false
         }
     },
@@ -899,12 +899,12 @@
         "pk": 65,
         "fields": {
             "name": "Sunrise Alps",
-            "location": "Bavaria",
             "description": "Sunrise in the Bavarian Alps",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image065",
             "category": 2,
+            "image": "Sunrise Alps",
             "is_sold": false
         }
     },
@@ -913,12 +913,12 @@
         "pk": 66,
         "fields": {
             "name": "Sunrise Tree",
-            "location": "The Netherlands",
             "description": "Sunrise in The Netherlands",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image066",
             "category": 2,
+            "image": "Sunrise Tree",
             "is_sold": false
         }
     },
@@ -927,12 +927,12 @@
         "pk": 67,
         "fields": {
             "name": "Sunrise Mountains",
-            "location": "Switzerland",
             "description": "Sunrise in Zermatt, Switzerland",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image067",
             "category": 2,
+            "image": "Sunrise Mountains",
             "is_sold": false
         }
     },
@@ -941,12 +941,12 @@
         "pk": 68,
         "fields": {
             "name": "Sunset Tree",
-            "location": "Hawaii",
             "description": "Sunset in Maui Hawaii",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image068",
             "category": 1,
+            "image": "Sunset Tree",
             "is_sold": false
         }
     },
@@ -955,12 +955,12 @@
         "pk": 69,
         "fields": {
             "name": "Sunset Sea",
-            "location": "San Diego",
             "description": "Sunset in San Diego",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image069",
             "category": 1,
+            "image": "Sunset Sea",
             "is_sold": false
         }
     },
@@ -969,12 +969,12 @@
         "pk": 70,
         "fields": {
             "name": "Swaike Lake",
-            "location": "Pakistan",
             "description": "Swaike lake in Pakistan",
             "dimensions": "96 x 96 cm",
             "price": "92.16",
             "sku": "image070",
             "category": 3,
+            "image": "Swaike Lake",
             "is_sold": false
         }
     },
@@ -983,12 +983,12 @@
         "pk": 71,
         "fields": {
             "name": "The top of La Palma",
-            "location": "The Canary Islands",
             "description": "The top of La Palma in the Canary Islands",
             "dimensions": "96 x 36 cm",
             "price": "34.56",
             "sku": "image071",
             "category": 2,
+            "image": "The top of La Palma",
             "is_sold": false
         }
     },
@@ -997,12 +997,12 @@
         "pk": 72,
         "fields": {
             "name": "The Wave",
-            "location": "Arizona",
             "description": "The Wave in Arizona",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image072",
             "category": 1,
+            "image": "The Wave",
             "is_sold": false
         }
     },
@@ -1011,12 +1011,12 @@
         "pk": 73,
         "fields": {
             "name": "Tiddenfoot Lake",
-            "location": "England",
             "description": "Tiddenfoot Lake in England",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image073",
             "category": 2,
+            "image": "Tiddenfoot Lake",
             "is_sold": false
         }
     },
@@ -1025,12 +1025,12 @@
         "pk": 74,
         "fields": {
             "name": "Trail Sunrise",
-            "location": "Oregon",
             "description": "Trail Sunrise in Oregon",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image074",
             "category": 1,
+            "image": "Trail Sunrise",
             "is_sold": false
         }
     },
@@ -1039,12 +1039,12 @@
         "pk": 75,
         "fields": {
             "name": "Two Jack Lake",
-            "location": "Canada",
             "description": "Two Jack Lake in Canada",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image075",
             "category": 1,
+            "image": "Two Jack Lake",
             "is_sold": false
         }
     },
@@ -1053,12 +1053,12 @@
         "pk": 76,
         "fields": {
             "name": "Utuado",
-            "location": "Puerto Rico",
             "description": "Utuado in Puerto Rico",
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image076",
             "category": 1,
+            "image": "Utuado",
             "is_sold": false
         }
     },
@@ -1067,12 +1067,12 @@
         "pk": 77,
         "fields": {
             "name": "Victoria",
-            "location": "Australia",
             "description": "Victoria in Australia",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image077",
             "category": 4,
+            "image": "Victoria",
             "is_sold": false
         }
     },
@@ -1081,12 +1081,12 @@
         "pk": 78,
         "fields": {
             "name": "Village",
-            "location": "Poland",
             "description": "Village in Poland",
             "dimensions": "64 x 100 cm",
             "price": "64.00",
             "sku": "image078",
             "category": 2,
+            "image": "Village",
             "is_sold": false
         }
     },
@@ -1095,12 +1095,12 @@
         "pk": 79,
         "fields": {
             "name": "Sunset Grassland",
-            "location": "Virginia",
             "description": "Virginia Sunset",
             "dimensions": "96 x 72 cm",
             "price": "69.12",
             "sku": "image079",
             "category": 1,
+            "image": "Sunset Grassland",
             "is_sold": false
         }
     },
@@ -1109,12 +1109,12 @@
         "pk": 80,
         "fields": {
             "name": "Wenatchee",
-            "location": "Washington",
             "description": "Wenatchee Eastern Washington",
             "dimensions": "96 x 64 cm",
             "price": "61.44",
             "sku": "image080",
             "category": 1,
+            "image": "Wenatchee",
             "is_sold": false
         }
     },
@@ -1123,12 +1123,12 @@
         "pk": 81,
         "fields": {
             "name": "Where water meets the Desert",
-            "location": "Arizona",
             "description": "Where water meets the desert in Arizona",
             "dimensions": "96 x 41 cm",
             "price": "39.36",
             "sku": "image081",
             "category": 1,
+            "image": "Where water meets the Desert",
             "is_sold": false
         }
     },
@@ -1137,12 +1137,12 @@
         "pk": 82,
         "fields": {
             "name": "White River National Forest",
-            "location": "Colorado",
             "description": "White River National Forest in Colorado",
             "dimensions": "64 x 85 cm",
             "price": "54.40",
             "sku": "image082",
             "category": 1,
+            "image": "White River National Forest",
             "is_sold": false
         }
     },
@@ -1151,12 +1151,12 @@
         "pk": 83,
         "fields": {
             "name": "Zion National Park",
-            "location": "Utah",
             "description": "Zion National Park in Utah",
             "dimensions": "64 x 80 cm",
             "price": "51.20",
             "sku": "image083",
             "category": 1,
+            "image": "Zion National Park",
             "is_sold": false
         }
     }

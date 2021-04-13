@@ -2,32 +2,28 @@
         "model": "products.category",
         "pk": 1,
         "fields": {
-            "name": "the_americas",
-            "friendly_name": "The Americas"
+            "name": "The Americas"
         }
     },
     {
         "model": "products.category",
         "pk": 2,
         "fields": {
-            "name": "europe",
-            "friendly_name": "Europe"
+            "name": "Europe"
         }
     },
     {
         "model": "products.category",
         "pk": 3,
         "fields": {
-            "name": "asia",
-            "friendly_name": "Asia"
+            "name": "Asia"
         }
     },
     {
         "model": "products.category",
         "pk": 4,
         "fields": {
-            "name": "australia",
-            "friendly_name": "Australia"
+            "name": "Australia"
         }
     }
 ]
