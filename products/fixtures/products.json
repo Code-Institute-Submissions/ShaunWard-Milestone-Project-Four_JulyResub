@@ -1,0 +1,71 @@
+[{
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "Almere Blossom",
+            "location": "The Netherlands",
+            "description": "Almere Blossom in The Netherlands",
+            "dimensions": "64 x 85 cm",
+            "price": "54.40",
+            "sku": "image001",
+            "category": "",
+            "is_sold": false
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "Amarilla Lagoon",
+            "location": "Ecuador",
+            "description": "Amarilla Lagoon in Ecuador",
+            "dimensions": "96 x 72 cm",
+            "price": "69.12",
+            "sku": "image002",
+            "category": "",
+            "is_sold": false
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "Arches National Park",
+            "location": "Utah",
+            "description": "Arches National Park in Utah",
+            "dimensions": "64 x 85 cm",
+            "price": "54.40",
+            "sku": "image003",
+            "category": "",
+            "is_sold": false
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "name": "Baltic Sea Coast",
+            "location": "Lithuania",
+            "description": "Baltic Sea Coast in Lithuania",
+            "dimensions": "64 x 85 cm",
+            "price": "54.40",
+            "sku": "image004",
+            "category": "",
+            "is_sold": false
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "name": "Basalt and Black Sand",
+            "location": "Iceland",
+            "description": "Basalt and black sand in Iceland",
+            "dimensions": "64 x 80 cm",
+            "price": "51.20",
+            "sku": "image005",
+            "category": "",
+            "is_sold": false
+        }
+    },
+]
