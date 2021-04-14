@@ -1159,5 +1159,19 @@
             "image": "Zion National Park",
             "is_sold": false
         }
+    },
+    {
+        "model": "products.product",
+        "pk": 84,
+        "fields": {
+            "name": "Canyonlands National Park",
+            "description": "Canyonlands National Park in Utah",
+            "dimensions": "64 x 80 cm",
+            "price": "51.20",
+            "sku": "image083",
+            "category": 1,
+            "image": "Canyonlands_National_Park",
+            "is_sold": false
+        }
     }
 ]
