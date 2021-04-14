@@ -78,8 +78,9 @@
                         </li>
                         {% endif %}
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <form class="d-flex form" method="GET" action="{% url 'products' %}">
+                        <input class="form-control me-2" name="searchfield" type="search" placeholder="Find an Image"
+                            aria-label="Search">
                         <button class="btn btn-outline-dark" type="submit">Search</button>
                     </form>
                 </div>
@@ -90,6 +91,20 @@
     {% block content %}
     <!-- Content loaded onto each page will go here -->
     {% endblock %}
+
+    <footer class="container">
+        <div class="row">
+            <div class="col text-center">
+                <p>Some data</p>
+            </div>
+            <div class="col text-center">
+                <p>Some data</p>
+            </div>
+            <div class="col text-center">
+                <p>Some data</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
