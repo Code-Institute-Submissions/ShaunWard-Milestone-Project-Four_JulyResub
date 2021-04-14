@@ -3,41 +3,39 @@
 
 {% block content %}
 <div class="container">
-    <div class="row">
+    <!-- <div class="row">
         <div id="image-home" class="col-12 text-center">
-            <img src="https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/Canyonlands_National_Park.jpeg?raw=true"
-                class="img-fluid" alt="">
+            <img src="" class="img-fluid" alt="">
+        </div>
+    </div> -->
+    <div class="row">
+        <div class="col-10 offset-1">
+            <div class="card">
+                <img class="card-img img-fluid" src="{{ MEDIA_URL }}Canyonlands_National_Park.jpeg"
+                    alt="{{ product.name }}">
+                <div class="card-img-overlay">
+                    <h5 class="card-title text-white">Sample Image</h5>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row">
         <div class="col-6">
-            <h1 class="text-success text-center">Testing Container</h1>
+            <h1 class="text-center">A bit about us</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the
                 industry's
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                 to make
-                a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                typesetting,
-                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                containing
-                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-                versions
-                of Lorem Ipsum</p>
+                a type specimen book.</p>
         </div>
         <div class="col-6">
-            <h1 class="text-success">Testing Container</h1>
+            <h1 class="text-center">Contact</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                 to make
-                a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                typesetting,
-                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                containing
-                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-                versions
-                of Lorem Ipsum</p>
+                a type specimen book.</p>
         </div>
     </div>
 
