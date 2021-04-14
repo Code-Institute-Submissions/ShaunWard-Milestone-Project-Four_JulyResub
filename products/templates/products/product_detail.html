@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <a href="">
+                    <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}.jpeg" alt="">
+                </a>
+                <div class="card-img-overlay">
+                    <h5 class="card-title text-white">{{ product.name }}</h5>
+                </div>
+                <div class="card-body">
+                    <h6 class="card-text text-center">{{ product.description }}</h6>
+                    <p class="card-text text-center">Cost: £{{ product.price }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

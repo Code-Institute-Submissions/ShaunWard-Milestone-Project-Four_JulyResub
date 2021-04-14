@@ -7,11 +7,14 @@
         {% for product in products %}
         <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="card mt-2 mb-2">
-                <a href="">
-                    <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}.jpeg" alt="">
+                <a href="{% url 'product_detail' product.id %}">
+                    <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}.jpeg"
+                        alt="{{ product.name }}">
                 </a>
                 <div class="card-img-overlay">
-                    <h5 class="card-title text-white">{{ product.name }}</h5>
+                    <h5 class="card-title text-white">
+                        <a href="{% url 'product_detail' product.id %}">{{ product.name }}</a>
+                    </h5>
                 </div>
                 <div class="card-body">
                     <h6 class="card-text text-center">{{ product.description }}</h6>
