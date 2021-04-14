@@ -37,6 +37,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <!-- CDN for sweetalerts for use with sweetify -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.15.5/sweetalert2.all.js"
+        integrity="sha512-Xf17iw0EVVbG2XuoUtwWxZnJWuPyGPb4CXvETp7u9KN7mzvRb9S+q8Mui4qtSxtHQ07hc2MXjN14BjyKqLKp5Q=="
+        crossorigin="anonymous"></script>
     <!-- Stripe -->
     <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
@@ -105,6 +109,9 @@
             </div>
         </div>
     </footer>
+
+    {% load sweetify %}
+    {% sweetify %}
 </body>
 
 </html>

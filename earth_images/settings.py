@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
+    'sweetify',
 ]
 
 MIDDLEWARE = [
@@ -86,6 +87,8 @@ AUTHENTICATION_BACKENDS = [
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
+
+SWEETIFY_SWEETALERT_LIBRARY = 'sweetalert2'
 
 SITE_ID = 1
 
