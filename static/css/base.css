@@ -6,3 +6,12 @@
     color: white;
     text-decoration: none;
 }
+
+.card-img {
+    max-height: 80vh;
+    width: auto;
+}
+
+.card-design {
+    border: none;
+}

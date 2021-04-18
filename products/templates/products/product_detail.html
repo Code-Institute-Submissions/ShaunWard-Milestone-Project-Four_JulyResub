@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12 col-lg-6">
-            <div class="card">
+            <div class="card card-design text-center">
                 <a href="{{ MEDIA_URL }}{{ product.image }}.jpeg" target="_blank">
                     <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}.jpeg"
                         alt="{{ product.name }}">
@@ -16,12 +16,13 @@
             </div>
         </div>
         <div class="col-sm-12 col-lg-6 my-auto">
-            <div class="card">
-                <div class="card-body">
+            <div class="card card-design mb-5">
+                <div class="card-body text-center">
                     <h5 class="card-text text-center mb-4 mt-2">{{ product.description }}</h5>
                     <p class="card-text text-center">Cost: £{{ product.price }}</p>
                     <p class="card-text text-center">Dimensions: {{ product.dimensions }}</p>
                     <p class="card-text text-center">Location: {{ product.category }}</p>
+                    <button class="btn btn-warning">Add to Basket</button>
                 </div>
             </div>
         </div>
