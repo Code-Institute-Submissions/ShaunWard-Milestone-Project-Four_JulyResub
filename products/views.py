@@ -4,8 +4,6 @@ from django.db.models import Q
 
 import sweetify
 
-# sweetify.sweetalert(self.request, 'Westworld is awesome', text='Really... if you have the chance - watch it!', persistent='I agree!')
-
 
 def all_products(request):
     '''A view to show all of the products, including sorting and search queries'''
@@ -17,8 +15,7 @@ def all_products(request):
         if 'searchfield' in request.GET:
             query = request.GET['searchfield']
             if not query:
-                # sweetify.success(request, 'You did it', text='Good job! You successfully showed a SweetAlert message', timer=1000)
-                sweetify.sweetalert(request, 'Westworld is awesome', text='Really... if you have the chance - watch it!', persistent='I agree!')
+                sweetify.sweetalert(request, 'Search field empty', text='Please populate the search field before searching', persistent='Ok')
                 return redirect(reverse('products'))
 
             queries = Q(name__icontains=query) | Q(description__icontains=query)
