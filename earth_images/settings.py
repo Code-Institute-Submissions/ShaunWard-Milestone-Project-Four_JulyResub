@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'home',
     'products',
     'sweetify',
+    'basket',
 ]
 
 MIDDLEWARE = [
@@ -75,6 +76,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth', # aullauth needs this
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media', # required to get media from media folder
+                'basket.contexts.basket_contents',
             ],
         },
     },
