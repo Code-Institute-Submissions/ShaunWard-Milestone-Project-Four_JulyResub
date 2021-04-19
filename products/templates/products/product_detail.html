@@ -23,7 +23,10 @@
                         <p class="card-text text-center">Cost: £{{ product.price }}</p>
                         <p class="card-text text-center">Dimensions: {{ product.dimensions }}</p>
                         <p class="card-text text-center">Location: {{ product.category }}</p>
-                        <button class="btn btn-warning">Add to Basket</button>
+                        <form class="form" action="" method="POST">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-warning">Add to Basket</button>
+                        </form>
                     </div>
                 </div>
             </div>
