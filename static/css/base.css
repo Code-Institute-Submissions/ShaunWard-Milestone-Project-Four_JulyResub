@@ -12,6 +12,12 @@
     width: auto;
 }
 
-.card-design {
+.card-design-img {
     border: none;
+    margin: 10px;
+}
+
+.card-design-text {
+    border: 2px solid lightblue;
+    margin: 20px;
 }
