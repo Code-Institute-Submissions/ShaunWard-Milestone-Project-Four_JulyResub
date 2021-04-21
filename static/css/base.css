@@ -29,3 +29,17 @@
     border: 2px solid lightblue;
     margin: 20px;
 }
+
+/* basket.html */
+
+.img-basket {
+    width: 250px;
+    height: auto;
+}
+
+/* Test */
+
+.hoz-rul {
+    color: black;
+    width: 60%;
+}
