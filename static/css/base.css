@@ -1,3 +1,11 @@
+/* Base template */
+
+.basket-total {
+    color: darkslategray;
+}
+
+/* product_detail */
+
 .card-img-overlay {
     height: 30px;
 }
