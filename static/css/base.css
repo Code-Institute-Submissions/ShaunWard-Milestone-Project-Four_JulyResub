@@ -37,9 +37,14 @@
     height: auto;
 }
 
-/* Test */
-
 .hoz-rul {
     color: black;
     width: 60%;
+}
+
+/* checkout */
+
+#payment-form {
+    margin-left: 10px;
+    margin-right: 10px;
 }
