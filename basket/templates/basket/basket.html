@@ -2,48 +2,6 @@
 {% load static %}
 
 {% block content %}
-<!-- <div class="container">
-    <div class="card mb-5">
-        <div class="row">
-            <div class="col">
-                {% if basket_items %}
-                <div class="table-responsive rounded d-none d-md-block">
-                    <table class="table table-sm table-borderless">
-                        <thead class="text-black">
-                            <tr>
-                                <th scope="col">Product Info</th>
-                                <th scope="col"></th>
-                                <th scope="col">Price</th>
-                            </tr>
-                        </thead>
-
-                        {% for item in basket_items %}
-                        <tr>
-                            <td class="p-3 w-10">
-                                <img class="img-fluid img-basket" src="{{ MEDIA_URL }}{{ item.product.image }}.jpeg"
-                                    alt="{{ item.name }}">
-                            </td>
-                            <td class="py-3">
-                                <p class="my-0">{{ item.product.name }}</p>
-                            </td>
-                            <td class="py-3">
-                                <p class="my-0">£{{ item.product.price }}</p>
-                            </td>
-                            <td class="py-3 w-25">
-                                <p class="my-0">{{ item.product.description }}</p>
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </table>
-                </div>
-                {% else %}
-                <h5>There are no items in your basket</h5>
-                <a href="{% url 'products' %}" class="btn btn-warning">Go to Shop</a>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-</div> -->
 <div class="container">
     <div class="card mb-5">
         <h3 class="text-center mt-3 mb-3">Basket</h3>
@@ -57,6 +15,10 @@
             <div class="col-sm-12 col-lg-6 text-center my-auto">
                 <h6>Name</h6>
                 <p class="mb-2">{{ item.product.name }}</p>
+                <p></p>
+                <h6>Dimensions</h6>
+                <p class="my-0">£{{ item.product.dimensions }}</p>
+                <p></p>
                 <h6>Price</h6>
                 <p class="my-0">£{{ item.product.price }}</p>
             </div>
@@ -73,4 +35,23 @@
     </div>
 </div>
 </div>
+{% endblock %}
+
+{% block postloadjs %}
+<!-- <script>
+    // Remove item and reload on click
+    $('.remove-item').click(function (e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = `/basket/remove/${itemId}/`;
+        var data = {
+            'csrfmiddlewaretoken': csrfToken,
+        };
+
+        $.post(url, data)
+            .done(function () {
+                location.reload();
+            });
+    })
+</script> -->
 {% endblock %}
