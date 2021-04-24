@@ -21,7 +21,6 @@ def all_products(request):
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
-
     context = {
         'products': products,
     }
