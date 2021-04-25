@@ -23,6 +23,7 @@
                     {{ order_form.town_or_city | as_crispy_field }}
                     {{ order_form.county | as_crispy_field }}
                     {{ order_form.postcode | as_crispy_field }}
+                    {{ order_form.country | as_crispy_field }}
                     <legend class="fieldset-label small">Payment</legend>
                     <!-- A Stripe card element will go here -->
                     <div class="mb-3" id="card-element"></div>
@@ -48,7 +49,7 @@
                     </div>
             </div>
             <div class="col-12 col-lg-6">
-                <h3 class="text-center mt-3 mb-3">Your Order {{ product_count }}</h3>
+                <h3 class="text-center mt-3 mb-3">Your Order ({{ product_count }})</h3>
                 {% for item in basket_items %}
                 <div class="row mb-2">
                     <div class="col-sm-12 col-lg-6 text-center">
