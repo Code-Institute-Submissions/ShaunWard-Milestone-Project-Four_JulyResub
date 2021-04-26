@@ -4,6 +4,11 @@
     color: darkslategray;
 }
 
+.my-nav,
+.my-foot {
+    background: rgb(219, 229, 240);
+}
+
 /* product_detail */
 
 .card-img-overlay {
