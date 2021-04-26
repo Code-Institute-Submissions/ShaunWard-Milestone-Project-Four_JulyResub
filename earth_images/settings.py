@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'sweetify',
     'basket',
     'checkout',
+    'profiles',
 
     # Other
     'crispy_forms',
