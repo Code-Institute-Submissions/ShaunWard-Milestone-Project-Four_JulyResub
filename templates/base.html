@@ -70,6 +70,11 @@
                             <a class="nav-link" href="{% url 'products' %}">Shop</a>
                         </li>
                         {% if request.user.is_authenticated %}
+                        {% if request.user.is_superuser %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'add_product' %}">Product Management</a>
+                        </li>
+                        {% endif %}
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'profile' %}">Profile</a>
                         </li>

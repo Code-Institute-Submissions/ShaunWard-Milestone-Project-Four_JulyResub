@@ -8,8 +8,13 @@
             <div class="col-sm-12 col-lg-6">
                 <div class="card card-design-img text-center">
                     <a href="{{ MEDIA_URL }}{{ product.image }}.jpeg" target="_blank">
-                        <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}.jpeg"
+                        {% if product.image %}
+                        <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}"
                             alt="{{ product.name }}">
+                        {% else %}
+                        <img class="img-fluid img-basket mx-auto" src="{{ MEDIA_URL }}noimage.png"
+                            alt="{{ item.name }}">
+                        {% endif %}
                     </a>
                     <div class="card-img-overlay">
                         <h6 class="card-title text-white">Click image to enlarge</h6>

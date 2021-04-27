@@ -8,7 +8,7 @@
             "price": "54.40",
             "sku": "image001",
             "category": 2,
-            "image": "Almere Blossom",
+            "image": "Almere Blossom.jpeg",
             "is_sold": false
         }
     },
@@ -22,7 +22,7 @@
             "price": "69.12",
             "sku": "image002",
             "category": 1,
-            "image": "Amarilla Lagoon",
+            "image": "Amarilla Lagoon.jpeg",
             "is_sold": false
         }
     },
@@ -36,7 +36,7 @@
             "price": "54.40",
             "sku": "image003",
             "category": 1,
-            "image": "Arches National Park",
+            "image": "Arches National Park.jpeg",
             "is_sold": false
         }
     },
@@ -50,7 +50,7 @@
             "price": "54.40",
             "sku": "image004",
             "category": 2,
-            "image": "Baltic Sea Coast",
+            "image": "Baltic Sea Coast.jpeg",
             "is_sold": false
         }
     },
@@ -64,7 +64,7 @@
             "price": "51.20",
             "sku": "image005",
             "category": 2,
-            "image": "Basalt and Black Sand",
+            "image": "Basalt and Black Sand.jpeg",
             "is_sold": false
         }
     },
@@ -78,7 +78,7 @@
             "price": "69.12",
             "sku": "image006",
             "category": 2,
-            "image": "Bluebells of Spring",
+            "image": "Bluebells of Spring.jpeg",
             "is_sold": false
         }
     },
@@ -92,7 +92,7 @@
             "price": "61.44",
             "sku": "image007",
             "category": 1,
-            "image": "Bryce Canyon National Park",
+            "image": "Bryce Canyon National Park.jpeg",
             "is_sold": false
         }
     },
@@ -106,7 +106,7 @@
             "price": "56.64",
             "sku": "image008",
             "category": 1,
-            "image": "Canyons of the Escalante",
+            "image": "Canyons of the Escalante.jpeg",
             "is_sold": false
         }
     },
@@ -120,7 +120,7 @@
             "price": "72.32",
             "sku": "image009",
             "category": 2,
-            "image": "Cherry Blossom",
+            "image": "Cherry Blossom.jpeg",
             "is_sold": false
         }
     },
@@ -134,7 +134,7 @@
             "price": "51.20",
             "sku": "image010",
             "category": 3,
-            "image": "Cherry Blossom Forest",
+            "image": "Cherry Blossom Forest.jpeg",
             "is_sold": false
         }
     },
@@ -148,7 +148,7 @@
             "price": "61.44",
             "sku": "image011",
             "category": 1,
-            "image": "Cloud Explosion",
+            "image": "Cloud Explosion.jpeg",
             "is_sold": false
         }
     },
@@ -162,7 +162,7 @@
             "price": "92.16",
             "sku": "image012",
             "category": 1,
-            "image": "Convict Lake",
+            "image": "Convict Lake.jpeg",
             "is_sold": false
         }
     },
@@ -176,7 +176,7 @@
             "price": "56.32",
             "sku": "image013",
             "category": 2,
-            "image": "Dunmore Head",
+            "image": "Dunmore Head.jpeg",
             "is_sold": false
         }
     },
@@ -190,7 +190,7 @@
             "price": "69.12",
             "sku": "image014",
             "category": 1,
-            "image": "El Doctor",
+            "image": "El Doctor.jpeg",
             "is_sold": false
         }
     },
@@ -204,7 +204,7 @@
             "price": "51.20",
             "sku": "image015",
             "category": 2,
-            "image": "Eruption",
+            "image": "Eruption.jpeg",
             "is_sold": false
         }
     },
@@ -218,7 +218,7 @@
             "price": "69.12",
             "sku": "image016",
             "category": 1,
-            "image": "Estuary on Vancouver Island",
+            "image": "Estuary on Vancouver Island.jpeg",
             "is_sold": false
         }
     },
@@ -232,7 +232,7 @@
             "price": "92.16",
             "sku": "image017",
             "category": 2,
-            "image": "Fagradalsfjall",
+            "image": "Fagradalsfjall.jpeg",
             "is_sold": false
         }
     },
@@ -246,7 +246,7 @@
             "price": "58.56",
             "sku": "image018",
             "category": 4,
-            "image": "Glendhu Bay",
+            "image": "Glendhu Bay.jpeg",
             "is_sold": false
         }
     },
@@ -260,7 +260,7 @@
             "price": "61.44",
             "sku": "image019",
             "category": 1,
-            "image": "Grand Prismatic Spring",
+            "image": "Grand Prismatic Spring.jpeg",
             "is_sold": false
         }
     },
@@ -274,7 +274,7 @@
             "price": "92.16",
             "sku": "image020",
             "category": 1,
-            "image": "Grand Teton National Park Water",
+            "image": "Grand Teton National Park Water.jpeg",
             "is_sold": false
         }
     },
@@ -288,7 +288,7 @@
             "price": "48.96",
             "sku": "image021",
             "category": 1,
-            "image": "Grand Teton National Park Tree",
+            "image": "Grand Teton National Park Tree.jpeg",
             "is_sold": false
         }
     },
@@ -302,7 +302,7 @@
             "price": "61.44",
             "sku": "image022",
             "category": 1,
-            "image": "Hanksville",
+            "image": "Hanksville.jpeg",
             "is_sold": false
         }
     },
@@ -316,7 +316,7 @@
             "price": "54.40",
             "sku": "image023",
             "category": 3,
-            "image": "Himachal Pradesh",
+            "image": "Himachal Pradesh.jpeg",
             "is_sold": false
         }
     },
@@ -330,7 +330,7 @@
             "price": "69.12",
             "sku": "image024",
             "category": 2,
-            "image": "IJsselmeer",
+            "image": "IJsselmeer.jpeg",
             "is_sold": false
         }
     },
@@ -344,7 +344,7 @@
             "price": "61.44",
             "sku": "image025",
             "category": 1,
-            "image": "Jasper National Park",
+            "image": "Jasper National Park.jpeg",
             "is_sold": false
         }
     },
@@ -358,7 +358,7 @@
             "price": "69.12",
             "sku": "image026",
             "category": 3,
-            "image": "Kamikõchi Hiking Trail",
+            "image": "Kamikõchi Hiking Trail.jpeg",
             "is_sold": false
         }
     },
@@ -372,7 +372,7 @@
             "price": "51.20",
             "sku": "image027",
             "category": 1,
-            "image": "Lake Reflection",
+            "image": "Lake Reflection.jpeg",
             "is_sold": false
         }
     },
@@ -386,7 +386,7 @@
             "price": "69.12",
             "sku": "image028",
             "category": 2,
-            "image": "Lesvos",
+            "image": "Lesvos.jpeg",
             "is_sold": false
         }
     },
@@ -400,7 +400,7 @@
             "price": "51.84",
             "sku": "image029",
             "category": 2,
-            "image": "Livno",
+            "image": "Livno.jpeg",
             "is_sold": false
         }
     },
@@ -414,7 +414,7 @@
             "price": "69.12",
             "sku": "image030",
             "category": 1,
-            "image": "Mammoth Lakes",
+            "image": "Mammoth Lakes.jpeg",
             "is_sold": false
         }
     },
@@ -428,7 +428,7 @@
             "price": "58.56",
             "sku": "image031",
             "category": 4,
-            "image": "Matai Bay",
+            "image": "Matai Bay.jpeg",
             "is_sold": false
         }
     },
@@ -442,7 +442,7 @@
             "price": "70.40",
             "sku": "image032",
             "category": 1,
-            "image": "Miramar Beach",
+            "image": "Miramar Beach.jpeg",
             "is_sold": false
         }
     },
@@ -456,7 +456,7 @@
             "price": "69.12",
             "sku": "image033",
             "category": 2,
-            "image": "Morning Hike",
+            "image": "Morning Hike.jpeg",
             "is_sold": false
         }
     },
@@ -470,7 +470,7 @@
             "price": "69.12",
             "sku": "image034",
             "category": 1,
-            "image": "Morning Light",
+            "image": "Morning Light.jpeg",
             "is_sold": false
         }
     },
@@ -484,7 +484,7 @@
             "price": "51.20",
             "sku": "image035",
             "category": 2,
-            "image": "Mornington",
+            "image": "Mornington.jpeg",
             "is_sold": false
         }
     },
@@ -498,7 +498,7 @@
             "price": "53.76",
             "sku": "image036",
             "category": 1,
-            "image": "Mount Shasta",
+            "image": "Mount Shasta.jpeg",
             "is_sold": false
         }
     },
@@ -512,7 +512,7 @@
             "price": "61.44",
             "sku": "image037",
             "category": 1,
-            "image": "Mount Whitney",
+            "image": "Mount Whitney.jpeg",
             "is_sold": false
         }
     },
@@ -526,7 +526,7 @@
             "price": "61.44",
             "sku": "image038",
             "category": 1,
-            "image": "Mountains",
+            "image": "Mountains.jpeg",
             "is_sold": false
         }
     },
@@ -540,7 +540,7 @@
             "price": "62.40",
             "sku": "image039",
             "category": 1,
-            "image": "Mudumalai National Park",
+            "image": "Mudumalai National Park.jpeg",
             "is_sold": false
         }
     },
@@ -554,7 +554,7 @@
             "price": "69.12",
             "sku": "image040",
             "category": 1,
-            "image": "National Lakeshore",
+            "image": "National Lakeshore.jpeg",
             "is_sold": false
         }
     },
@@ -568,7 +568,7 @@
             "price": "48.00",
             "sku": "image041",
             "category": 1,
-            "image": "New River",
+            "image": "New River.jpeg",
             "is_sold": false
         }
     },
@@ -582,7 +582,7 @@
             "price": "61.44",
             "sku": "image042",
             "category": 2,
-            "image": "Northern Lights",
+            "image": "Northern Lights.jpeg",
             "is_sold": false
         }
     },
@@ -596,7 +596,7 @@
             "price": "61.44",
             "sku": "image043",
             "category": 1,
-            "image": "Old Flowers Road",
+            "image": "Old Flowers Road.jpeg",
             "is_sold": false
         }
     },
@@ -610,7 +610,7 @@
             "price": "51.84",
             "sku": "image044",
             "category": 1,
-            "image": "Oljato-Monument Valley",
+            "image": "Oljato-Monument Valley.jpeg",
             "is_sold": false
         }
     },
@@ -624,7 +624,7 @@
             "price": "69.12",
             "sku": "image045",
             "category": 2,
-            "image": "Olympus National Park",
+            "image": "Olympus National Park.jpeg",
             "is_sold": false
         }
     },
@@ -638,7 +638,7 @@
             "price": "62.40",
             "sku": "image046",
             "category": 1,
-            "image": "Pastel Sunset",
+            "image": "Pastel Sunset.jpeg",
             "is_sold": false
         }
     },
@@ -652,7 +652,7 @@
             "price": "51.20",
             "sku": "image047",
             "category": 1,
-            "image": "Picture Lake",
+            "image": "Picture Lake.jpeg",
             "is_sold": false
         }
     },
@@ -666,7 +666,7 @@
             "price": "61.44",
             "sku": "image048",
             "category": 1,
-            "image": "Pinnacles National Park",
+            "image": "Pinnacles National Park.jpeg",
             "is_sold": false
         }
     },
@@ -680,7 +680,7 @@
             "price": "51.20",
             "sku": "image049",
             "category": 1,
-            "image": "Reflections",
+            "image": "Reflections.jpeg",
             "is_sold": false
         }
     },
@@ -694,7 +694,7 @@
             "price": "77.76",
             "sku": "image050",
             "category": 2,
-            "image": "Reynisfjara",
+            "image": "Reynisfjara.jpeg",
             "is_sold": false
         }
     },
@@ -708,7 +708,7 @@
             "price": "54.40",
             "sku": "image051",
             "category": 2,
-            "image": "Rock Waterfall",
+            "image": "Rock Waterfall.jpeg",
             "is_sold": false
         }
     },
@@ -722,7 +722,7 @@
             "price": "51.20",
             "sku": "image052",
             "category": 1,
-            "image": "Santa Cruz",
+            "image": "Santa Cruz.jpeg",
             "is_sold": false
         }
     },
@@ -736,7 +736,7 @@
             "price": "61.44",
             "sku": "image053",
             "category": 2,
-            "image": "Saxony",
+            "image": "Saxony.jpeg",
             "is_sold": false
         }
     },
@@ -750,7 +750,7 @@
             "price": "51.20",
             "sku": "image054",
             "category": 2,
-            "image": "Highlands",
+            "image": "Highlands.jpeg",
             "is_sold": false
         }
     },
@@ -764,7 +764,7 @@
             "price": "72.96",
             "sku": "image055",
             "category": 1,
-            "image": "Seaside Caves",
+            "image": "Seaside Caves.jpeg",
             "is_sold": false
         }
     },
@@ -778,7 +778,7 @@
             "price": "61.44",
             "sku": "image056",
             "category": 2,
-            "image": "Serene Forest",
+            "image": "Serene Forest.jpeg",
             "is_sold": false
         }
     },
@@ -792,7 +792,7 @@
             "price": "61.44",
             "sku": "image057",
             "category": 1,
-            "image": "Sheldon",
+            "image": "Sheldon.jpeg",
             "is_sold": false
         }
     },
@@ -806,7 +806,7 @@
             "price": "69.12",
             "sku": "image058",
             "category": 3,
-            "image": "Shimla Himachal Pradesh",
+            "image": "Shimla Himachal Pradesh.jpeg",
             "is_sold": false
         }
     },
@@ -820,7 +820,7 @@
             "price": "51.84",
             "sku": "image059",
             "category": 1,
-            "image": "Sierras East Side",
+            "image": "Sierras East Side.jpeg",
             "is_sold": false
         }
     },
@@ -834,7 +834,7 @@
             "price": "54.40",
             "sku": "image060",
             "category": 1,
-            "image": "Silver Falls",
+            "image": "Silver Falls.jpeg",
             "is_sold": false
         }
     },
@@ -848,7 +848,7 @@
             "price": "61.44",
             "sku": "image061",
             "category": 1,
-            "image": "Slate River",
+            "image": "Slate River.jpeg",
             "is_sold": false
         }
     },
@@ -862,7 +862,7 @@
             "price": "65.28",
             "sku": "image062",
             "category": 1,
-            "image": "Snake River",
+            "image": "Snake River.jpeg",
             "is_sold": false
         }
     },
@@ -876,7 +876,7 @@
             "price": "69.12",
             "sku": "image063",
             "category": 1,
-            "image": "Snow Canyon State Park",
+            "image": "Snow Canyon State Park.jpeg",
             "is_sold": false
         }
     },
@@ -890,7 +890,7 @@
             "price": "92.16",
             "sku": "image064",
             "category": 1,
-            "image": "South Rim of the Grand Cannon",
+            "image": "South Rim of the Grand Cannon.jpeg",
             "is_sold": false
         }
     },
@@ -904,7 +904,7 @@
             "price": "69.12",
             "sku": "image065",
             "category": 2,
-            "image": "Sunrise Alps",
+            "image": "Sunrise Alps.jpeg",
             "is_sold": false
         }
     },
@@ -918,7 +918,7 @@
             "price": "61.44",
             "sku": "image066",
             "category": 2,
-            "image": "Sunrise Tree",
+            "image": "Sunrise Tree.jpeg",
             "is_sold": false
         }
     },
@@ -932,7 +932,7 @@
             "price": "61.44",
             "sku": "image067",
             "category": 2,
-            "image": "Sunrise Mountains",
+            "image": "Sunrise Mountains.jpeg",
             "is_sold": false
         }
     },
@@ -946,7 +946,7 @@
             "price": "69.12",
             "sku": "image068",
             "category": 1,
-            "image": "Sunset Tree",
+            "image": "Sunset Tree.jpeg",
             "is_sold": false
         }
     },
@@ -960,7 +960,7 @@
             "price": "69.12",
             "sku": "image069",
             "category": 1,
-            "image": "Sunset Sea",
+            "image": "Sunset Sea.jpeg",
             "is_sold": false
         }
     },
@@ -974,7 +974,7 @@
             "price": "92.16",
             "sku": "image070",
             "category": 3,
-            "image": "Swaike Lake",
+            "image": "Swaike Lake.jpeg",
             "is_sold": false
         }
     },
@@ -988,7 +988,7 @@
             "price": "34.56",
             "sku": "image071",
             "category": 2,
-            "image": "The top of La Palma",
+            "image": "The top of La Palma.jpeg",
             "is_sold": false
         }
     },
@@ -1002,7 +1002,7 @@
             "price": "61.44",
             "sku": "image072",
             "category": 1,
-            "image": "The Wave",
+            "image": "The Wave.jpeg",
             "is_sold": false
         }
     },
@@ -1016,7 +1016,7 @@
             "price": "69.12",
             "sku": "image073",
             "category": 2,
-            "image": "Tiddenfoot Lake",
+            "image": "Tiddenfoot Lake.jpeg",
             "is_sold": false
         }
     },
@@ -1030,7 +1030,7 @@
             "price": "61.44",
             "sku": "image074",
             "category": 1,
-            "image": "Trail Sunrise",
+            "image": "Trail Sunrise.jpeg",
             "is_sold": false
         }
     },
@@ -1044,7 +1044,7 @@
             "price": "61.44",
             "sku": "image075",
             "category": 1,
-            "image": "Two Jack Lake",
+            "image": "Two Jack Lake.jpeg",
             "is_sold": false
         }
     },
@@ -1058,7 +1058,7 @@
             "price": "54.40",
             "sku": "image076",
             "category": 1,
-            "image": "Utuado",
+            "image": "Utuado.jpeg",
             "is_sold": false
         }
     },
@@ -1072,7 +1072,7 @@
             "price": "69.12",
             "sku": "image077",
             "category": 4,
-            "image": "Victoria",
+            "image": "Victoria.jpeg",
             "is_sold": false
         }
     },
@@ -1086,7 +1086,7 @@
             "price": "64.00",
             "sku": "image078",
             "category": 2,
-            "image": "Village",
+            "image": "Village.jpeg",
             "is_sold": false
         }
     },
@@ -1100,7 +1100,7 @@
             "price": "69.12",
             "sku": "image079",
             "category": 1,
-            "image": "Sunset Grassland",
+            "image": "Sunset Grassland.jpeg",
             "is_sold": false
         }
     },
@@ -1114,7 +1114,7 @@
             "price": "61.44",
             "sku": "image080",
             "category": 1,
-            "image": "Wenatchee",
+            "image": "Wenatchee.jpeg",
             "is_sold": false
         }
     },
@@ -1128,7 +1128,7 @@
             "price": "39.36",
             "sku": "image081",
             "category": 1,
-            "image": "Where water meets the Desert",
+            "image": "Where water meets the Desert.jpeg",
             "is_sold": false
         }
     },
@@ -1142,7 +1142,7 @@
             "price": "54.40",
             "sku": "image082",
             "category": 1,
-            "image": "White River National Forest",
+            "image": "White River National Forest.jpeg",
             "is_sold": false
         }
     },
@@ -1156,7 +1156,7 @@
             "price": "51.20",
             "sku": "image083",
             "category": 1,
-            "image": "Zion National Park",
+            "image": "Zion National Park.jpeg",
             "is_sold": false
         }
     },
@@ -1170,7 +1170,7 @@
             "price": "51.20",
             "sku": "image083",
             "category": 1,
-            "image": "Canyonlands_National_Park",
+            "image": "Canyonlands_National_Park.jpeg",
             "is_sold": false
         }
     }
