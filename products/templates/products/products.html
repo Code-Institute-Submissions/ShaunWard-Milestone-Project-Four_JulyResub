@@ -23,6 +23,12 @@
                     <h6 class="card-text text-center">{{ product.description }}</h6>
                     <p class="card-text text-center">Cost: £{{ product.price }}</p>
                 </div>
+                {% if request.user.is_superuser %}
+                <small class="text-center">
+                    <a href="{% url 'edit_product' product.id %}">Edit</a> |
+                    <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                </small>
+                {% endif %}
             </div>
         </div>
         {% endfor %}

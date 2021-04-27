@@ -38,6 +38,12 @@
                         <h6>To add items to your basket, please <a href="{% url 'account_signup' %}">Register</a> for an
                             account</h6>
                         {% endif %}
+                        {% if request.user.is_superuser %}
+                        <small class="text-center">
+                            <a href="{% url 'edit_product' product.id %}">Edit</a> |
+                            <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                        </small>
+                        {% endif %}
                     </div>
                 </div>
             </div>
