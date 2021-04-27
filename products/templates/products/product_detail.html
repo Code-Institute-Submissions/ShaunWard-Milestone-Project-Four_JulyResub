@@ -29,6 +29,9 @@
                             <button type="submit" class="btn btn-warning">Add to Basket</button>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </form>
+                        {% else %}
+                        <h6>To add items to your basket, please <a href="{% url 'account_signup' %}">Register</a> for an
+                            account</h6>
                         {% endif %}
                     </div>
                 </div>
