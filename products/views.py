@@ -53,7 +53,7 @@ def add_product(request):
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
             product = form.save()
-            sweetify.sweetalert(request, 'Success! Product Added', timer=1500)
+            sweetify.sweetalert(request, 'Success! Product Added', timer=1000)
             return redirect(reverse('product_detail', args=[product.id]))
         else:
             sweetify.sweetalert(request, 'Failed to add product.', text='Please ensure the form is valid.', persistent='Ok')
@@ -63,6 +63,33 @@ def add_product(request):
     template = 'products/add_product.html'
     context = {
         'form': form,
+    }
+
+    return render(request, template, context)
+
+def edit_product(request, product_id):
+    """ Edit a product in the store """
+    # if not request.user.is_superuser:
+    #     messages.error(request, 'Sorry, only store owners can do that.')
+    #     return redirect(reverse('home'))
+
+    product = get_object_or_404(Product, pk=product_id)
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            form.save()
+            sweetify.sweetalert(request, 'Success! Product Updated', timer=1000)
+            return redirect(reverse('product_detail', args=[product.id]))
+        else:
+            sweetify.sweetalert(request, title='Failed to update product.', text='Please ensure the form is valid.', timer=1000)
+    else:
+        form = ProductForm(instance=product)
+        sweetify.sweetalert(request, f'You are editing {product.name}', timer=1000)
+
+    template = 'products/edit_product.html'
+    context = {
+        'form': form,
+        'product': product,
     }
 
     return render(request, template, context)
