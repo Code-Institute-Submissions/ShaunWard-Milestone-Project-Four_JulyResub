@@ -37,11 +37,11 @@ def remove_from_basket(request, item_id):
 
         basket = request.session.get('basket', {})
         basket.pop(item_id)
-        sweetify.sweetalert(request, text=f'Image {product.name} removed from basket', timer=1000)
+        sweetify.sweetalert(request, f'Image {product.name} removed from basket', timer=1000)
 
         request.session['basket'] = basket
         return HttpResponse(status=200)
 
     except Exception as e:
-        sweetify.sweetalert(request, text=f'Something went wrong removing {e}', persistent='Ok')
+        sweetify.sweetalert(request, f'Something went wrong removing {e}', persistent='Ok')
         return HttpResponse(status=500)
