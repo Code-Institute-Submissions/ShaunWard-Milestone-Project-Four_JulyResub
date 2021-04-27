@@ -27,3 +27,21 @@ def add_to_basket(request, item_id):
 
     request.session['basket'] = basket
     return redirect(redirect_url)
+
+
+def remove_from_basket(request, item_id):
+    """Remove the item from the shopping basket"""
+
+    try:
+        product = get_object_or_404(Product, pk=item_id)
+
+        basket = request.session.get('basket', {})
+        basket.pop(item_id)
+        sweetify.sweetalert(request, text=f'Image {product.name} removed from basket', timer=1000)
+
+        request.session['basket'] = basket
+        return HttpResponse(status=200)
+
+    except Exception as e:
+        sweetify.sweetalert(request, text=f'Something went wrong removing {e}', persistent='Ok')
+        return HttpResponse(status=500)
