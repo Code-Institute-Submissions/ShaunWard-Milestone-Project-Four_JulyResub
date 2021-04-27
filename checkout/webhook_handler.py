@@ -2,6 +2,8 @@ from django.http import HttpResponse
 
 from .models import Order, OrderLineItem
 from products.models import Product
+from profiles.models import UserProfile
+
 
 import json
 import time
@@ -33,16 +35,16 @@ class StripeWH_Handler:
         shipping_details = intent.shipping
         grand_total = round(intent.charges.data[0].amount / 100, 2)
 
-         # Clean data in the shipping details
+        # Clean data in the shipping details
         for field, value in shipping_details.address.items():
             if value == "":
                 shipping_details.address[field] = None
 
-        # # Update profile information if save_info was checked
-        # profile = None
-        # username = intent.metadata.username
-        # if username != 'AnonymousUser':
-        #     profile = UserProfile.objects.get(user__username=username)
+        # Update profile information if save_info was checked
+        profile = None
+        username = intent.metadata.username
+        if username != 'AnonymousUser':
+            profile = UserProfile.objects.get(user__username=username)
 
         order_exists = False
         attempt = 1
