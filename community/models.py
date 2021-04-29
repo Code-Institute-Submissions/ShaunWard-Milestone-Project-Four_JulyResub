@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 class Post(models.Model):
     title = models.CharField(max_length=200)
     content = models.TextField()
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    author = models.CharField(max_length=200)
     date_of_post = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
