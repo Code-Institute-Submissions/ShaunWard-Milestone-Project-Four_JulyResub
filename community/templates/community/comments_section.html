@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="card mb-5 p-3">
+        <div class="row">
+            <div class="card col-12 col-lg-8 offset-lg-2">
+                <h3 class="text-center mt-3 mb-3">{{ post.title }}</h3>
+                <h6 class="text-center">{{ post.content }}</h6>
+                <p class="text-center">{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}</p>
+                <div class="text-center">
+                    <a class="btn btn-warning" href="{% url 'add_comment' %}">Add Comment</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 offset-lg-3">
+                {% for comment in comments %}
+                <a href="" target="_blank">
+                    <div class="card p-2 mt-2">
+                        <div class="row">
+                            <div class="col-9">
+                                <h5>{{ comment.post }}</h5>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

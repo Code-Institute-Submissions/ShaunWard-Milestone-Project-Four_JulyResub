@@ -13,12 +13,13 @@ class Post(models.Model):
         return self.title
 
 
-# class Comment(models.Model):
-#     post = models.ForeignKey(Post, related_name="comments",
-#                              on_delete=models.CASCADE)
-#     name = models.ForeignKey(User, on_delete=models.CASCADE)
-#     body = models.TextField()
-#     date_of_post = models.DateTimeField(default=timezone.now)
+class Comment(models.Model):
+    post = models.ForeignKey(Post, related_name="comments",
+                             on_delete=models.CASCADE)
+    name = models.ForeignKey(User, on_delete=models.CASCADE)
+    body = models.TextField()
+    date_of_post = models.DateTimeField(default=timezone.now)
 
-#     def __str__(self):
-#         return '%s - %s' % (self.post.title, self.name)
+    def __str__(self):
+        # return '%s - %s' % (self.post.title, self.name)
+        return self.post

@@ -23,12 +23,12 @@
                             <p>Earth Images, August 2020</p>
                         </div>
                         <div class="col-3 text-right">
-                            <p>Id: A</p>
+                            <p>Id: {{ post.id }}</p>
                         </div>
                     </div>
                 </div>
                 {% for post in posts %}
-                <a href="" target="_blank">
+                <a class="community-post" href="{% url 'comments_section' post.id %}" target="_blank">
                     <div class="card p-2 mt-2">
                         <div class="row">
                             <div class="col-9">
