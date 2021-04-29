@@ -14,19 +14,32 @@
         </div>
         <div class="row">
             <div class="col-12 col-lg-6 offset-lg-3">
+                <div class="card p-2 mt-5">
+                    <div class="row">
+                        <div class="col-9">
+                            <h5>Example Post Title</h5>
+                            <hr>
+                            <p>Your posts message will appear here</p>
+                            <p>Earth Images, August 2020</p>
+                        </div>
+                        <div class="col-3 text-right">
+                            <p>Id: A</p>
+                        </div>
+                    </div>
+                </div>
                 {% for post in posts %}
                 <a href="" target="_blank">
-                    <div class="card p-2">
+                    <div class="card p-2 mt-2">
                         <div class="row">
-                            <div class="col-11">
+                            <div class="col-9">
                                 <h5>{{ post.title }}</h5>
+                                <hr>
                                 <p>{{ post.content }}</p>
-                                <p>Date: {{ post.date_of_post | date:"d F, Y"}}</p>
+                                <p>{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}</p>
                             </div>
-                            <div class="col-1">
+                            <div class="col-3 text-right">
                                 <p>Id: {{ post.id }}</p>
                             </div>
-
                         </div>
                     </div>
                 </a>
