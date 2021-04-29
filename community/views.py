@@ -1,3 +1,5 @@
+# Code Adapted from boutique ado mini project
+
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from .models import Post, Comment
 from .forms import PostForm, CommentForm

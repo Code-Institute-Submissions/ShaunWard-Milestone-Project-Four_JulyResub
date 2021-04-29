@@ -1,3 +1,5 @@
+# Code Adapted from boutique ado mini project
+
 from django.db import models
 
 

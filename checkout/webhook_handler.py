@@ -1,3 +1,5 @@
+# Code used here sourced from boutique ado mini project
+
 from django.http import HttpResponse
 
 from .models import Order, OrderLineItem

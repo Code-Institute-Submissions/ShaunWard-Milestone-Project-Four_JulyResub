@@ -21,5 +21,5 @@ class Comment(models.Model):
     date_of_post = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        # return '%s - %s' % (self.post.title, self.name)
-        return self.post
+        return '%s - %s' % (self.post.title, self.name)
+        
