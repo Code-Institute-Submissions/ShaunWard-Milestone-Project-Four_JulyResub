@@ -53,7 +53,7 @@
 
 <body>
     <header class="container mb-4">
-        <nav class="navbar navbar-expand-lg navbar-light my-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{% url 'home' %}">Earth Images</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -79,7 +79,7 @@
                             <a class="nav-link" href="{% url 'profile' %}">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Community</a>
+                            <a class="nav-link" href="{% url 'community' %}">Community</a>
                         </li>
                         <li class=" nav-item">
                             <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
