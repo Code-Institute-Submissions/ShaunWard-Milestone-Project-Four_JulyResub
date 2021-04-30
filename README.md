@@ -155,6 +155,7 @@ os.environ["DEVELOPMENT"] = "True"
 python3 manage.py createsuperuser
 ```
 Then following the intructions in the terminal.
+
 11. Finally run
 ```
 python3 manage.py runserver
@@ -166,7 +167,43 @@ Please note that if you wish to then push this project to a public repository su
 
 ### Heroku via Github Deployment
 
+To Deploy to [Heroku](https://www.heroku.com) via Github
 
+1. Sign Up/Login into Heroku.
+2. Create a new app using a relevant region and app title.
+3. In your IDEs terminal create a new requirements.txt file using:
+  ```
+  pip3 freeze --local > requirements.txt
+  ```
+  This will be used by Heroku to install all dependancies for the application.
+4. Create a Procfile at root level, ensuring it contains the following:
+  ```
+  web: gunicorn art_i_al.wsgi:application
+  ```
+5. Now these files have been created, add them to the staging area, give them a commit message and push them to github.
+6. In your Heroku app click on the 'deploy' tab and under deployment method select Github.
+7. Make sure your github name, repository and correct branch are selected and click connect.
+8. Next go back to the tabs near the top and click on the settings button.
+9. Under Config Vars click the Reveal Config Vars button.
+10. Add the following information into the revealed config vars:
+  ```
+AWS_ACCESS_KEY_ID | ACCESS_KEY_ID_PROVIDED_BY_AWS
+AWS_SECRET_ACCESS_KEY | SECRET_ACCESS_KEY_PROVIDED_BY_AWS
+DATABASE_URL | YOUR_DATABASE_URL
+EMAIL_HOST_PASS | YOUR_EMAIL_PASSWORD
+EMAIL_HOST_USER | YOUR_EMAIL_USER
+SECRET_KEY | YOUR_DJANGO_SECRET_KEY
+STRIPE_PUBLIC_KEY | YOUR_STRIPE_SECRET_KEY
+STRIPE_SECRET_KEY | YOUR_STRIPE_PUBLIC_KEY
+STRIPE_WH_SECRET | YOUR_STRIPE_WH_SECRET
+  ```
+You will be required to fill in the SECRET_KEY with a key of your choice. 
+The Stripe information will come from your stripe account under the Developers - API keys section.
+Signing up for Amazon Web services and creating an S3 bucket will provide the AWS details.
+
+11. Once this information is filled in, go back to the Deploy tab and at the bottom of the page under Maunal Deploy click Deploy Branch.
+12. Once your have a message to say the app was deployed you can click the open app button.
+13. (Optional) You can also enable automatic deploys from the data you push to the chosen Github repo under Automatic deploys.
 
 ## Acknowledgements
 
