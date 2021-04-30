@@ -102,14 +102,20 @@ Further manual testing was done to ensure each aspect of the application worked 
 - HTML
 - CSS
 - Python
+- Javascript
 
-#### Frameworks
+#### Frameworks, Libraries
 
-
+- Django
+- Sweetalert
+- Stripe
+- Django-allauth
+- Django-crispy forms
 
 #### Technologies/Tools
 
 - [Heroku](https://www.heroku.com) to deploy the application
+- [AWS](https://aws.amazon.com/) to host static and media files
 - [Gitpod IDE](https://www.gitpod.io)
 - Git & [Github](https://github.com/) for version control
 - [Balsamiq](https://balsamiq.com/) to create wireframes
