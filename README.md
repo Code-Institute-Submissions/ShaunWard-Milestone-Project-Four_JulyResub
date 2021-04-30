@@ -14,7 +14,8 @@
 
 ### User Stories
 
-- As a user I want to, have an easy way to keep track of things that I have watched and view them easily.
+- As a user I want to, view products available to buy.
+- As a user I want to, 
 
 
 ## Features
@@ -39,17 +40,9 @@
 
 ### Features left to implement
 
-- An ability for one user to share their entry with another using to suggest a programme/film.
-- A page containing data about the entries such as:
-  1. numbers of entries against a certain streaming service
-  2. a quick view of all the ratings given, and an average rating
-- Using an API it may also be possible to suggest programmes/films to the user based on their entries.
-
 ## Links
 
 ### Wireframes
-
-
 
 ## Testing
 
@@ -59,27 +52,6 @@ Google Developer tools in the chrome broswer was used extensively throughout the
 
 Further manual testing was done to ensure each aspect of the application worked as expected.
 
-#### Front/Home Page
-
-
-
-#### Login Page
-
-
-
-#### Register Page
-
-
-
-#### My List Page
-
-
-
-#### Add to list Page
-
-
-
-#### Edit page
 
 ## Database Modelling
 
@@ -129,6 +101,28 @@ Further manual testing was done to ensure each aspect of the application worked 
 | sku | CharField | max_length=254, null=True, blank=True |
 | category | ForeignKey | 'Category', null=True, blank=True, on_delete=models.SET_NULL |
 | image | ImageField | null=True, blank=True |
+
+### Profiles App
+
+| Database Key | Field Type | Validation |
+| ------------ | --------- | ----------- |
+user = models.OneToOneField(User, on_delete=models.CASCADE)
+default_phone_number = models.CharField(max_length=20,
+                                            null=True, blank=True)
+default_street_address1 = models.CharField(max_length=80,
+                                               null=True, blank=True)
+default_street_address2 = models.CharField(max_length=80,
+                                               null=True, blank=True)
+default_town_or_city = models.CharField(max_length=40,
+                                            null=True, blank=True)
+default_county = models.CharField(max_length=80,
+                                      null=True, blank=True)
+default_postcode = models.CharField(max_length=20,
+                                        null=True, blank=True)
+default_country = CountryField(blank_label='Country',
+                                   null=True, blank=True)
+
+#### UserProfile
 
 #### Testing user stories
 
