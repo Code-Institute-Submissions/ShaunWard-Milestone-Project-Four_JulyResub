@@ -112,9 +112,23 @@ Further manual testing was done to ensure each aspect of the application worked 
 | Database Key | Field Type | Validation |
 | ------------ | --------- | ----------- |
 | order | ForeignKey 'Order' | null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems' |
-| product | ForeignKey 'Product' | null=False, blank=False, on_delete=models.PROTECT |
-| quantity | IntegerField | null=False, blank=False, default=1 |
+| product | ForeignKey 'Product' | null=False, blank=False, on_delete=models.CASCADE |
+| quantity | IntegerField | null=False, blank=False, default=0 |
 | line_item_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False |
+
+### Products App
+
+#### Product
+
+| Database Key | Field Type | Validation |
+| ------------ | --------- | ----------- |
+| name | CharField | max_length=254 |
+| description | TextField |
+| dimensions | CharField | max_length=70, null=True, blank=False |
+| price | models.DecimalField | max_digits=6, decimal_places=2 |
+| sku | CharField | max_length=254, null=True, blank=True |
+| category | ForeignKey | 'Category', null=True, blank=True, on_delete=models.SET_NULL |
+| image | ImageField | null=True, blank=True |
 
 #### Testing user stories
 
