@@ -56,7 +56,10 @@
   
 #### Account Creation/Login Ability
 
-
+- The register page can create an account by filling in the form with an email, username and password.
+- The login page can log a current user in by providing their username or email and password.
+- On the login page the user can click the 'Forgot Password?' link to reset their password.
+- The users account can be used to view past order information and update and save billing/shipping information.
 
 #### Responsive Design
 
