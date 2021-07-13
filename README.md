@@ -14,8 +14,17 @@
 
 ### User Stories
 
+- As a user I want to, view the site on a mobile, tablet or PC/Laptop.
+- As a user I want to, easily be able to see how to navigate the site.
 - As a user I want to, view products available to buy.
-- As a user I want to, 
+- As a user I want to, view individual products with more information such as dimentions.
+- As a user I want to, be able to add a product to my basket
+- As a user I want to, be able to adjust my basket by accessing it and removing unwanted items.
+- As a user I want to, be able to see a breakdown of the cost of the item including any shipping costs.
+- As a user I want to, be able to purchase items using a form for my shipping details and card information.
+- As a user I want to, receive confirmation of the order right away, on screen and then with a follow up email.
+
+
 
 
 ## Features
