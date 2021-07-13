@@ -42,13 +42,19 @@
 
 #### Navigation bar
 
-
+- The navigation bar contains:
+    1. A logo and home link, both which, when clicked, take the user back to the main page
+    2. A shop link taking the user to the page to view available prints to buy.
+    3. A register link which takes the user to the page to create an account.
+    4. A login link which takes the user to the page to sign in to a current account.
+    5. A search bar which allows the user to search for prints.
+- When logged in the register and login links are removed and replaced by:
+    1. A profile link to take the user to their user profile.
+    2. A community link to take the user to the community where they can view and make comments.
+    3. A logout link which logs the user out of their account.
+    4. A basket link which takes the user to their basket.
   
-#### Account Creation
-
-
-  
-#### Login Ability
+#### Account Creation/Login Ability
 
 
 
