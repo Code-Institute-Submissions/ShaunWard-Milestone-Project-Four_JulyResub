@@ -61,6 +61,16 @@
 - On the login page the user can click the 'Forgot Password?' link to reset their password.
 - The users account can be used to view past order information and update and save billing/shipping information.
 
+#### Shop (app) page
+
+- The shop app allows users to view all of the prints available to purchase
+- Clicking on the print image will take the user to a larger image of the print with more information and a button to add the print to the users basket.
+
+#### Profile (app) page
+
+- The profile app presents the user with a form to update their Default Delivery Information, which when submitted is saved to their profile so it can be pre populated at checkout.
+- The user can view prevous orders on the profile page. Clicking the order number will give the user more details about the order.
+
 #### Responsive Design
 
 - The application is able to be used in a web browser on any size device ranging from smartphone to large screens such as desktops.
