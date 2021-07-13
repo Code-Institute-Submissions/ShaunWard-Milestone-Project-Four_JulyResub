@@ -14,6 +14,7 @@
 
 ### User Stories
 
+#### A user viewing/buying products
 - As a user I want to, view the site on a mobile, tablet or PC/Laptop.
 - As a user I want to, easily be able to see how to navigate the site.
 - As a user I want to, view products available to buy.
@@ -24,6 +25,7 @@
 - As a user I want to, be able to purchase items using a form for my shipping details and card information.
 - As a user I want to, receive confirmation of the order right away, on screen and then with a follow up email.
 
+#### A user creating/changing account information
 - As a user I want to, be able to create an account.
 - As a user I want to, be able to return to my account and log in.
 - As a user I want to, be able to view and update my billing/shipping address information.
@@ -31,6 +33,7 @@
 - As a user I want, my information to be pre populated at checkout if I have it on my profile.
 - As a user I want to, change or rest my password easily.
 
+#### A site owner
 - As a site owner I want to, add, update or delete product information such as price, size etc.
 
 ## Features
