@@ -24,8 +24,14 @@
 - As a user I want to, be able to purchase items using a form for my shipping details and card information.
 - As a user I want to, receive confirmation of the order right away, on screen and then with a follow up email.
 
+- As a user I want to, be able to create an account.
+- As a user I want to, be able to return to my account and log in.
+- As a user I want to, be able to view and update my billing/shipping address information.
+- As a user I want to, view past orders.
+- As a user I want, my information to be pre populated at checkout if I have it on my profile.
+- As a user I want to, change or rest my password easily.
 
-
+- As a site owner I want to, add, update or delete product information such as price, size etc.
 
 ## Features
 
