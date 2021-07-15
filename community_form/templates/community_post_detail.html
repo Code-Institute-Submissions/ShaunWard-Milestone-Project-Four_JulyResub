@@ -10,12 +10,12 @@
                 {% if request.user.is_authenticated %}
                 <div class="text-center mb-3">
                     <a href="{% url 'edit_post' post.pk %}">Edit</a>
-                    <a href="">Delete</a>
+                    <a class="text-danger" href="{% url 'delete_post' post.pk %}">Delete</a>
                 </div>
                 {% endif %}
                 <h6 class="text-center">{{ post.content }}</h6>
                 <p class="text-center">{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}</p>
-                <div class="text-center">
+                <div class="text-center mb-3">
                     <a class="btn btn-warning" href="">Add Comment</a>
                     <a class="btn btn-warning" href="{% url 'community_form' %}">Back</a>
                 </div>

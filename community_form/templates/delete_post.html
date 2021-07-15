@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="card mb-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 offset-lg-3">
+                <h3 class="text-center mt-3 mb-3">Community</h3>
+            </div>
+        </div>
+        {% if request.user.is_authenticated %}
+        <div class="row">
+            <div class="col-12 col-lg-6 offset-lg-3">
+                <form method="POST" action="" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <h5 class="text-center mt-3">Post Title: {{ post.title }}</h5>
+                    <p class="text-center">Are you sure you want to delete this post permenantly?</p>
+                    <div class="text-center mb-3">
+                        <a class="btn btn-warning" href="{% url 'post_detail' post.pk %}">Cancel</a>
+                        <button class="btn btn-danger" type="submit">Delete</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        {% else %}
+        <div class="row">
+            <div class="col-12 col-lg-6 offset-lg-3">
+                <a class="btn btn-warning" href="{% url 'community_form' %}">Back to Community</a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
