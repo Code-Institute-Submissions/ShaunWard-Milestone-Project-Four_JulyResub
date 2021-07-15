@@ -33,6 +33,9 @@
 </div>
 {% endblock %}
 
+{% block postloadjs %}
 <script>
-
+    let name = "{{ user.id }}";
+    document.getElementById("author-input").value = name;
 </script>
+{% endblock %}

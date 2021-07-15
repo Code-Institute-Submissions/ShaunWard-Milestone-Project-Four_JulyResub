@@ -8,5 +8,7 @@ class PostForm(forms.ModelForm):
         fields = ('title', 'subject', 'content', 'author')
 
         widgets = {
-            'author': forms.TextInput(attrs={'id': 'author-input', 'class': 'form-control'}),
+            'author': forms.TextInput(attrs={'id': 'author-input',
+                                        'class': 'form-control', 'value': '',
+                                        'type': 'hidden'}),
         }
