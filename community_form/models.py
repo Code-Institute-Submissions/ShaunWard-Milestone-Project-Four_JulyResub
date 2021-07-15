@@ -13,7 +13,17 @@ class Post(models.Model):
     date_of_post = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return self.title + str(self.author)
+        return self.title + ' | ' + str(self.author)
 
     def get_absolute_url(self):
-        return reverse('community_form')  #Takes user to the detail page of their post
+        return reverse('community_form')
+
+
+class Comment(models.Model):
+    post = models.ForeignKey(Post, related_name="comments", on_delete=models.CASCADE, null=True)
+    name = models.CharField(max_length=200)
+    body = models.TextField(default='Insert text here')
+    date_of_post = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return '%s - %s' % (self.post.title, self.name)
