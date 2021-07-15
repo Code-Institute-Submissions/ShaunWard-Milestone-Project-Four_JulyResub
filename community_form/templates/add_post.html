@@ -16,8 +16,8 @@
                 <form method="POST" action="" enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form | crispy }}
-                    <div class="text-right">
-                        <a class="btn btn-warning" href="">Cancel</a>
+                    <div class="text-right mb-3">
+                        <a class="btn btn-warning" href="{% url 'community_form' %}">Cancel</a>
                         <button class="btn btn-warning" type="submit">Post</button>
                     </div>
                 </form>

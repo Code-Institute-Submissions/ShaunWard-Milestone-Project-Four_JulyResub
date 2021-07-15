@@ -16,16 +16,6 @@
         </div>
         <div class="row">
             <div class="col-12 col-lg-6 offset-lg-3">
-                <div class="card p-2 mt-5">
-                    <div class="row">
-                        <div class="col-9">
-                            <h5>Example Post Title</h5>
-                            <hr>
-                            <p>Your posts message will appear here</p>
-                            <p>Earth Images, August 2020</p>
-                        </div>
-                    </div>
-                </div>
                 {% for post in object_list %}
                 <a class="community-post" href="{% url 'post_detail' post.pk %}">
                     <div class="card p-2 mt-2">
@@ -34,7 +24,8 @@
                                 <h5>{{ post.title }}</h5>
                                 <hr>
                                 <p>{{ post.content }}</p>
-                                <p>{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}</p>
+                                <p class="mb-1"><small>{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}</small>
+                                </p>
                             </div>
                         </div>
                     </div>
