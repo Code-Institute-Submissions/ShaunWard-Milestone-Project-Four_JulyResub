@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'basket',
     'checkout',
     'profiles',
-    'community',
     'community_form',
 
     # Other
