@@ -47,6 +47,12 @@ class AddCommentView(CreateView):
         return reverse_lazy('post_detail', kwargs={'pk': self.kwargs['pk']})
 
 
+class EditCommentView(UpdateView):
+    model = Comment
+    template_name = 'edit_comment.html'
+    fields = ['body']
+
+
 class DeleteCommentView(DeleteView):
     model = Comment
     template_name = 'delete_comment.html'
