@@ -1,7 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import reverse, HttpResponseRedirect
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Post, Comment
-from .forms import PostForm
+from .forms import PostForm, CommentForm
 from django.urls import reverse_lazy
 
 
@@ -36,6 +36,12 @@ class DeletePostView(DeleteView):
 
 class AddCommentView(CreateView):
     model = Comment
-    # form_class = PostForm
+    form_class = CommentForm
     template_name = 'add_comment.html'
-    fields = '__all__'
+
+    def form_valid(self, form):
+        form.instance.post_id = self.kwargs['pk']
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        return reverse_lazy('post_detail', kwargs={'pk': self.kwargs['pk']})

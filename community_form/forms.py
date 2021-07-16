@@ -1,5 +1,5 @@
 from django import forms
-from .models import Post
+from .models import Post, Comment
 
 
 class PostForm(forms.ModelForm):
@@ -9,6 +9,20 @@ class PostForm(forms.ModelForm):
 
         widgets = {
             'author': forms.TextInput(attrs={'id': 'author-input',
-                                        'class': 'form-control', 'value': '',
-                                        'type': 'hidden'}),
+                                             'class': 'form-control',
+                                             'value': '',
+                                             'type': 'hidden'}),
+        }
+
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ('name', 'body')
+
+        widgets = {
+            'name': forms.TextInput(attrs={'id': 'name-input',
+                                           'class': 'form-control',
+                                           'value': '',
+                                           'type': 'hidden'}),
         }
