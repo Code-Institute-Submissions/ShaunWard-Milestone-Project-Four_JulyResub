@@ -20,6 +20,11 @@
         </div>
         <div class="row">
             <div class="col-12 col-lg-6 offset-lg-3">
+                <div class="text-center mb-3">
+                    <a class="text-primary" href="">Add Comment</a>
+                    <a class="text-secondary" href="{% url 'community_form' %}">Back</a>
+                    <hr class="hoz-rul">
+                </div>
                 {% if not post.comments.all %}
                 No Comments yet
                 {% else %}
@@ -34,10 +39,6 @@
                 </div>
                 {% endfor %}
                 {% endif %}
-                <div class="text-center mb-3">
-                    <a class="text-primary" href="">Add Comment</a>
-                    <a class="text-secondary" href="{% url 'community_form' %}">Back</a>
-                </div>
             </div>
         </div>
     </div>
