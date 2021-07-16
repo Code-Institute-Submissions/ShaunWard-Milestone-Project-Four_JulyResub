@@ -35,7 +35,7 @@
                                 {{ post.date_of_post | date:"d F Y"}}
                                 {% if user.id == comment.name.id %}
                                 <a href="">Edit</a>
-                                <a class="text-danger" href="">Delete</a>
+                                <a class="text-danger" href="{% url 'delete_comment' comment.pk %}">Delete</a>
                                 {% endif %}
                             </small></p>
                         <hr class="hoz-rul">
