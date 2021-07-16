@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import CommunityView, PostDetail, AddPostView, EditPostView, DeletePostView
+from .views import CommunityView, PostDetail, AddPostView, EditPostView, DeletePostView, AddCommentView
 
 urlpatterns = [
     path('', CommunityView.as_view(), name='community_form'),
@@ -7,4 +7,5 @@ urlpatterns = [
     path('add_post/', AddPostView.as_view(), name='add_post'),
     path('edit_post/<int:pk>', EditPostView.as_view(), name='edit_post'),
     path('delete_post/<int:pk>', DeletePostView.as_view(), name='delete_post'),
+    path('post/<int:pk>/add_comment/', AddCommentView.as_view(), name='add_comment'),
 ]

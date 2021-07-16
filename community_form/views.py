@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from .models import Post
+from .models import Post, Comment
 from .forms import PostForm
 from django.urls import reverse_lazy
 
@@ -32,3 +32,10 @@ class DeletePostView(DeleteView):
     model = Post
     template_name = 'delete_post.html'
     success_url = reverse_lazy('community_form')
+
+
+class AddCommentView(CreateView):
+    model = Comment
+    # form_class = PostForm
+    template_name = 'add_comment.html'
+    fields = '__all__'
