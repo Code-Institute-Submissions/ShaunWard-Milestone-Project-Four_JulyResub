@@ -8,14 +8,13 @@
             <div class="card col-12 col-lg-8 offset-lg-2 mb-3">
                 <h3 class="text-center mt-3">{{ post.title }}</h3>
                 <h5 class="text-center mt-3">{{ post.subject }}</h5>
-                {% if request.user.is_authenticated and user.id == post.author.id %}
-                <div class="text-center mb-3">
-                    <a href="{% url 'edit_post' post.pk %}">Edit</a>
-                    <a class="text-danger" href="{% url 'delete_post' post.pk %}">Delete</a>
-                </div>
-                {% endif %}
                 <h6 class="text-center">{{ post.content }}</h6>
-                <p class="text-center"><small>{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}</small></p>
+                <p class="text-center"><small>{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}
+                        {% if request.user.is_authenticated and user.id == post.author.id %}
+                        <a href="{% url 'edit_post' post.pk %}">Edit</a>
+                        <a class="text-danger" href="{% url 'delete_post' post.pk %}">Delete</a>
+                        {% endif %}
+                    </small></p>
             </div>
         </div>
         <div class="row">
@@ -33,7 +32,12 @@
                     <div class="col">
                         <p>{{ comment.body }}</p>
                         <p><small>{{ comment.name }},
-                                {{ post.date_of_post | date:"d F Y"}}</small></p>
+                                {{ post.date_of_post | date:"d F Y"}}
+                                {% if user.id == comment.name.id %}
+                                <a href="">Edit</a>
+                                <a class="text-danger" href="">Delete</a>
+                                {% endif %}
+                            </small></p>
                         <hr class="hoz-rul">
                     </div>
                 </div>
