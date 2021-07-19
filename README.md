@@ -5,13 +5,12 @@
 Earth Images is an e-commerce website that allows users to view and buy prints of images from all around the world. Taken by the community and sold on Earth Images, this is the place to come for high quality images from all around the world.
 Users can also discuss there favourite images on our community form with other like minded people.
 
-## User Design/Experience
+## UX
 
+### Goals for the Project
 
-
-### Design
-
-
+The main goal of this project is to complete the requirements of the final project for the Code Institues Full Stack Web Developer Programme.
+The project is to build a fully functioning e-commerce website using Python and Django, it will be hosted on Heroku and use AWS to handle files as well as use a Postgres database.
 
 ### User Stories
 
