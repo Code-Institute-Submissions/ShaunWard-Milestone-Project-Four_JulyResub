@@ -5,7 +5,7 @@
 <div class="container">
     <div class="card mb-5 p-3">
         <div class="row">
-            <div class="card col-12 col-lg-8 offset-lg-2 mb-3">
+            <div class="card col-12 col-lg-8 offset-lg-2 mb-3 shadow-sm p-2 bg-white rounded">
                 <h3 class="text-center mt-3">{{ post.title }}</h3>
                 <h5 class="text-center mt-3">{{ post.subject }}</h5>
                 <h6 class="text-center">{{ post.content }}</h6>
@@ -20,8 +20,8 @@
         <div class="row">
             <div class="col-12 col-lg-6 offset-lg-3">
                 <div class="text-center mb-3">
-                    <a class="text-primary" href="{% url 'add_comment' post.pk %}">Add Comment</a>
-                    <a class="text-secondary" href="{% url 'community_form' %}">Back</a>
+                    <a class="text-primary mr-3" href="{% url 'add_comment' post.pk %}">Add Comment</a>
+                    <a class="text-secondary" href="{% url 'community_form' %}">Community Home</a>
                     <hr class="hoz-rul">
                 </div>
                 {% if not post.comments.all %}
@@ -31,7 +31,7 @@
                 <div class="row">
                     <div class="col">
                         <p>{{ comment.body }}</p>
-                        <p><small>{{ comment.name }},
+                        <p class="card-footer p-2"><small>{{ comment.name }},
                                 {{ post.date_of_post | date:"d F Y"}}
                                 {% if user.id == comment.name.id %}
                                 <a href="{% url 'edit_comment' comment.pk %}">Edit</a>
