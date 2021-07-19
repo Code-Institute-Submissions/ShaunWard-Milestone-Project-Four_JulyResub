@@ -15,23 +15,23 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8 offset-lg-2">
-                {% for post in object_list %}
+            {% for post in object_list %}
+            <div class="col-6">
                 <a class="community-post" href="{% url 'post_detail' post.pk %}">
-                    <div class="card p-2 mt-2">
-                        <div class="col">
+                    <div class="card w-85 mt-3">
+                        <div class="col p-2">
                             <h5>{{ post.title }}</h5>
                             <h6>{{ post.subject }}</h6>
                             <hr>
                             <p>{{ post.content | slice:":150" }}</p>
                             <p class="mb-1"><small>{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}</small>
-                            </p>
                         </div>
                     </div>
                 </a>
-                {% endfor %}
             </div>
+            {% endfor %}
         </div>
     </div>
+</div>
 </div>
 {% endblock %}
