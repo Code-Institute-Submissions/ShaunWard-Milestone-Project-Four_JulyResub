@@ -139,7 +139,7 @@ Further manual testing was done to ensure each aspect of the application worked 
 | quantity | IntegerField | null=False, blank=False, default=0 |
 | line_item_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False |
 
-### Checkout App
+### Community Form
 
 #### Post
 
