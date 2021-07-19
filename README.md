@@ -1,8 +1,6 @@
 # Milestone-Project-Four - Earth Images
 
 ![Earth Images](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Home_page.png?raw=true)
-    
-## Description
 
 Earth Images is an e-commerce website that allows users to view and buy prints of images from all around the world. Taken by the community and sold on Earth Images, this is the place to come for high quality images from all around the world.
 Users can also discuss there favourite images on our community form with other like minded people.
