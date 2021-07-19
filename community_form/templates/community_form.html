@@ -16,6 +16,7 @@
         </div>
         <div class="row">
             <div class="col-8 offset-lg-2">
+                {% if post % }
                 {% for post in object_list %}
                 <a class="community-post" href="{% url 'post_detail' post.pk %}">
                     <div class="card p-2 mt-2">
@@ -30,6 +31,9 @@
                     </div>
                 </a>
                 {% endfor %}
+                {% else %}
+                No current posts, please add one to start a conversation
+                {% endif %}
             </div>
         </div>
     </div>
