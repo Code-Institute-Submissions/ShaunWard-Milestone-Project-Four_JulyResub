@@ -16,7 +16,7 @@
         </div>
         <div class="row">
             <div class="col-8 offset-lg-2">
-                {% if not post.all % }
+                {% if not object_list % }
                     No current posts, please add one to start a conversation
                 {% else %}
                 {% for post in object_list %}
