@@ -3,7 +3,7 @@
 
 {% block content %}
 <div class="container">
-    <div class="card mb-5 p-3">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
         <div class="row">
             <div class="card col-12 col-lg-8 offset-lg-2 mb-3 shadow-sm p-3 bg-white rounded">
                 <h3 class="text-center mt-3">{{ post.title }}</h3>
@@ -11,7 +11,7 @@
                 <h6 class="text-center">{{ post.content }}</h6>
                 <p class="text-center"><small>{{ post.author }}, {{ post.date_of_post | date:"d F Y"}}
                         {% if request.user.is_authenticated and user.id == post.author.id %}
-                        <a href="{% url 'edit_post' post.pk %}">Edit</a>
+                        <a class="ml-1" href="{% url 'edit_post' post.pk %}">Edit</a> |
                         <a class="text-danger" href="{% url 'delete_post' post.pk %}">Delete</a>
                         {% endif %}
                     </small></p>
@@ -34,7 +34,7 @@
                         <p class="card-footer p-2"><small>{{ comment.name }},
                                 {{ post.date_of_post | date:"d F Y"}}
                                 {% if user.id == comment.name.id %}
-                                <a href="{% url 'edit_comment' comment.pk %}">Edit</a>
+                                <a class="ml-1" href="{% url 'edit_comment' comment.pk %}">Edit</a> |
                                 <a class="text-danger" href="{% url 'delete_comment' comment.pk %}">Delete</a>
                                 {% endif %}
                             </small></p>
