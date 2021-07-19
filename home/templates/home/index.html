@@ -3,7 +3,27 @@
 
 {% block content %}
 <div class="container">
-    <div class="row">
+    <div class="row mb-3">
+        <div class="col-12 col-lg-8 offset-lg-2">
+            <div class="text-center">
+                <h1>Earth Images</h1>
+                <p>We love all the great sites to see on earth. We love sharing them with our community
+                    of fellow earth
+                    image lovers.
+                    This site is for members to sell their prints to other like minded individuals so we can all enjoy
+                    the
+                    view.
+                </p>
+                <p>See our <strong><a href="{% url 'products' %}">Shop</a></strong> for whats currently available</p>
+                <p>To join our community form and discuss past and future prints <strong><a
+                            href="{% url 'account_signup' %}">Register
+                        </a></strong>
+                    for an
+                    account</p>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-5">
         <div class="col-12">
             <div class="card">
                 <img class="card-img img-fluid" src="{{ MEDIA_URL }}Canyonlands_National_Park.jpeg"
@@ -14,18 +34,5 @@
             </div>
         </div>
     </div>
-    <div class="row mb-5">
-        <div class="col-12 col-lg-8 offset-lg-2">
-            <h1 class="text-center">A bit about us</h1>
-            <p class="text-center">We love all the great sites to see on earth. We love sharing them with our community
-                of fellow earth
-                image lovers.
-                This site is for members to sell their prints to other like minded individuals so we can all enjoy the
-                view.
-            </p>
-            <p class="text-center">See our shop for whats currently available</p>
-        </div>
-    </div>
-
 </div>
 {% endblock %}
