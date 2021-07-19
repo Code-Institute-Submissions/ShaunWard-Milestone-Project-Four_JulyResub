@@ -4,12 +4,10 @@ import uuid
 
 from django.db import models
 from django.db.models import Sum
-from django.conf import settings
 from django_countries.fields import CountryField
 
 from products.models import Product
 from profiles.models import UserProfile
-
 
 
 class Order(models.Model):
@@ -28,14 +26,14 @@ class Order(models.Model):
     county = models.CharField(max_length=80, null=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)
     delivery_cost = models.DecimalField(max_digits=6, decimal_places=2,
-                                         null=False, default=0)
+                                        null=False, default=0)
     order_total = models.DecimalField(max_digits=10, decimal_places=2,
-                                         null=False, default=0)
+                                      null=False, default=0)
     grand_total = models.DecimalField(max_digits=10, decimal_places=2,
-                                         null=False, default=0)
+                                      null=False, default=0)
     original_basket = models.TextField(null=False, blank=False, default='')
     stripe_pid = models.CharField(max_length=254, null=False,
-                                     blank=False, default='')
+                                  blank=False, default='')
 
     def _generate_order_number(self):
         """
@@ -48,7 +46,8 @@ class Order(models.Model):
         Update grand total each time a line item is added,
         accounting for delivery costs.
         """
-        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
+        self.order_total = self.lineitems.aggregate(
+            Sum('lineitem_total'))['lineitem_total__sum'] or 0
         self.delivery_cost = 5
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
@@ -67,10 +66,15 @@ class Order(models.Model):
 
 
 class OrderLineItem(models.Model):
-    order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
-    product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
+    order = models.ForeignKey(Order, null=False, blank=False,
+                              on_delete=models.CASCADE,
+                              related_name='lineitems')
+    product = models.ForeignKey(Product, null=False, blank=False,
+                                on_delete=models.CASCADE)
     quantity = models.IntegerField(null=False, blank=False, default=0)
-    lineitem_total = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False, editable=False)
+    lineitem_total = models.DecimalField(max_digits=6, decimal_places=2,
+                                         null=False, blank=False,
+                                         editable=False)
 
     def save(self, *args, **kwargs):
         """
