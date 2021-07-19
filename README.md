@@ -44,6 +44,8 @@ The project is to build a fully functioning e-commerce website using Python and 
 
 #### Navigation bar
 
+![navbar](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Navigation%20Bar.png?raw=true)
+
 - The navigation bar contains:
     1. A logo and home link, both which, when clicked, take the user back to the main page
     2. A shop link taking the user to the page to view available prints to buy.
@@ -58,6 +60,8 @@ The project is to build a fully functioning e-commerce website using Python and 
   
 #### Account Creation/Login Ability
 
+![register page](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Sign%20Up%20page.png?raw=true)
+
 - The register page can create an account by filling in the form with an email, username and password.
 - The login page can log a current user in by providing their username or email and password.
 - On the login page the user can click the 'Forgot Password?' link to reset their password.
@@ -65,13 +69,21 @@ The project is to build a fully functioning e-commerce website using Python and 
 
 #### Shop (app) page
 
+![the shop](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Products%20in%20shop.png?raw=true)
+
 - The shop app allows users to view all of the prints available to purchase
 - Clicking on the print image will take the user to a larger image of the print with more information and a button to add the print to the users basket.
 
 #### Profile (app) page
 
+![user profile](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Profile%20with%20order%20history.png?raw=true)
+
 - The profile app presents the user with a form to update their Default Delivery Information, which when submitted is saved to their profile so it can be pre populated at checkout.
 - The user can view prevous orders on the profile page. Clicking the order number will give the user more details about the order.
+
+#### Community (app) page
+
+![community page](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Community%20Page.png?raw=true)
 
 #### Responsive Design
 
