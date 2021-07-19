@@ -91,18 +91,8 @@ The project is to build a fully functioning e-commerce website using Python and 
 
 ### Features left to implement
 
-## Links
-
-### Wireframes
-
-## Testing
-
-### Manual Testing
-
-Google Developer tools in the chrome broswer was used extensively throughout the project as an efficient error checking method.
-
-Further manual testing was done to ensure each aspect of the application worked as expected.
-
+There is an 'is_sold' line item in the product model that has not yet been implemented. 
+The idea being that when a print is sold it can be automactially either taken down from the site or label as is sold. 
 
 ## Database Modelling
 
@@ -189,11 +179,11 @@ Further manual testing was done to ensure each aspect of the application worked 
 
 #### UserProfile
 
-#### Testing user stories
+## Testing
 
-### Manual Testing
+### Testing user stories
 
-Google Developer tools in the chrome broswer was used extensively throughout the project as an efficient error checking method.
+The site was tested manually using Google Developer tools in the chrome broswer throughout the project as an efficient error checking method.
 
 Further manual testing was done to ensure each aspect of the application worked as expected.
 
