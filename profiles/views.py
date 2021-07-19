@@ -21,7 +21,10 @@ def profile(request):
             form.save()
             sweetify.sweetalert(request, 'Profile updated', timer=1000)
         else:
-            sweetify.sweetalert(request, 'Update failed. Please ensure the form is vaild', timer=1000)
+            sweetify.sweetalert(request,
+                                'Update failed.'
+                                'Please ensure the form is vaild',
+                                timer=1000)
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
@@ -37,7 +40,7 @@ def profile(request):
 
 def order_history(request, order_number):
     order = get_object_or_404(Order, order_number=order_number)
-    
+
     sweetify.sweetalert(
         request, title='Warning',
         text=f'This is a past confirmation for order number {order_number}.\
