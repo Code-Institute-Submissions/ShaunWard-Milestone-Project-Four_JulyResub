@@ -1,4 +1,6 @@
 # Milestone-Project-Four - Earth Images
+
+![Earth Images](https://github.com/ShaunWard/Milestone-Project-Three/blob/master/static/img/Welcome%20Page.png?raw=true)
     
 ## Description
 
