@@ -1,5 +1,5 @@
-from django.shortcuts import reverse, HttpResponseRedirect
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.views.generic import (ListView, DetailView, CreateView,
+                                  UpdateView, DeleteView)
 from .models import Post, Comment
 from .forms import PostForm, CommentForm
 from django.urls import reverse_lazy
