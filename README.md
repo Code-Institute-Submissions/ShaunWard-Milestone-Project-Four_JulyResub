@@ -139,6 +139,27 @@ Further manual testing was done to ensure each aspect of the application worked 
 | quantity | IntegerField | null=False, blank=False, default=0 |
 | line_item_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False |
 
+### Checkout App
+
+#### Post
+
+| Database Key | Field Type | Validation |
+| ------------ | --------- | ----------- |
+| title | CharField | max_length=200 |
+| content | TextField |
+| author | ForeignKey 'User' | on_delete=models.CASCADE | null=True |
+| subject | ForeignKey 'Product' | on_delete=models.SET_NULL | null=True |
+| date_of_post | DateTimeField | default=timezone.now |
+
+#### Comment
+
+| Database Key | Field Type | Validation |
+| ------------ | --------- | ----------- |
+| post | ForeignKey 'Post' | related_name="comments" on_delete=models.CASCADE | null=True)
+| name | ForeignKey 'User' | on_delete=models.CASCADE | null=True |
+| body | TextField |
+| date_of_post | DateTimeField |default=timezone.now |
+
 ### Products App
 
 #### Product
