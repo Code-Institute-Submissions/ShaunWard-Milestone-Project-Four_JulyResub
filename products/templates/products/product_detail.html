@@ -7,22 +7,15 @@
         <div class="row">
             <div class="col-sm-12 col-lg-6">
                 <div class="card card-design-img text-center">
-                    <a href="{{ MEDIA_URL }}{{ product.image }}.jpeg" target="_blank">
-                        {% if product.image %}
-                        <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}"
-                            alt="{{ product.name }}">
-                        {% else %}
-                        <img class="img-fluid img-basket mx-auto" src="{{ MEDIA_URL }}noimage.png"
-                            alt="{{ item.name }}">
-                        {% endif %}
-                    </a>
-                    <div class="card-img-overlay">
-                        <h6 class="card-title text-white">Click image to enlarge</h6>
-                    </div>
+                    {% if product.image %}
+                    <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}" alt="{{ product.name }}">
+                    {% else %}
+                    <img class="img-fluid img-basket mx-auto" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.name }}">
+                    {% endif %}
                 </div>
             </div>
             <div class="col-sm-12 col-lg-6 my-auto">
-                <div class="card card-design-text mb-5">
+                <div class="card card-design-text shadow-sm p-3 mb-5 bg-white rounded">
                     <div class="card-body text-center">
                         <h5 class="card-text text-center mb-4 mt-2">{{ product.description }}</h5>
                         <p class="card-text text-center">Cost: £{{ product.price }}</p>

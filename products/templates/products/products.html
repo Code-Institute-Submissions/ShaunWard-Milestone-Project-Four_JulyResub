@@ -6,7 +6,7 @@
     <div class="row">
         {% for product in products %}
         <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="card mt-2 mb-2">
+            <div class="card mt-3 shadow-sm p-2 bg-white rounded">
                 <a href="{% url 'product_detail' product.id %}">
                     {% if product.image %}
                     <img class="card-img img-fluid" src="{{ MEDIA_URL }}{{ product.image }}" alt="{{ product.name }}">
