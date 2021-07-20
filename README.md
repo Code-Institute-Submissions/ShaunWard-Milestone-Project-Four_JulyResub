@@ -83,6 +83,8 @@ The project is to build a fully functioning e-commerce website using Python and 
 
 ![community page](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Community%20Page.png?raw=true)
 
+-
+
 #### Responsive Design
 
 - The application is able to be used in a web browser on any size device ranging from smartphone to large screens such as desktops.
@@ -187,6 +189,30 @@ Further manual testing was done to ensure each aspect of the application worked 
 
 ### Homepage
 
+#### Navigation
+- All navigation links were tested and all work as expected, taking the user to the correct webpage.
+- The navigation links change correctly when the user registers and logs in.
+- The basket link becomes bold and the basket total is calculated and shown correctly.
+- The product management link only appears when a superuser is logged in.
+- The navigation collaspes into the 'burger' icon at the expected screensize.
+- The search box can be used at anytime to search in the shop, the search returns any items containing the keyword.
+
+- The navigation links perform as required by there related user stories.
+
+### Shop
+- The shop displays a list of products available to buy for the user.
+- Clicking on any card either image or information takes the user to the products detail page as required.
+- The detail page correctly gives the user a link to register if they are not logged in instead of an add to basket link.
+- When logged in the user has buttons on the product detail page to add the item to their basket or return to the shop.
+- Clicking add to basket gives the user feedback in the form of a pop up saying the item has been added to basket.
+- When the user searches the shop the items are filter and display only showing related items to the keyword. A button is available to take the user back to the full shop.
+
+### Basket
+- The basket correctly shows the user what has been added to their basket
+- The remove button informs the user of what has been removed and when the basket is empty a message is displayed on the page as expected. The shop button then takes the user back.
+- The go to checkout button takes the user to the checkout screen
+
+### Checkout
 - 
 
 ### Online testing tools
