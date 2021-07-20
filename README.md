@@ -251,7 +251,7 @@ Further manual testing was done to ensure each aspect of the application worked 
 - The added product appears in the shop with the rest of the items as expected.
 
 ### Responsiveness
-- 
+- The site has been tested using chrome developer tools and the webpages compress as expected to a good size.
 
 ### Online testing tools
 
