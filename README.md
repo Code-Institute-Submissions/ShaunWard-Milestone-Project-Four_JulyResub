@@ -221,6 +221,9 @@ Further manual testing was done to ensure each aspect of the application worked 
 - The Stripe section warns the user when card information is invalid.
 - If the order fails the user is warned in red text that the payment method has failed and to try a different method.
 
+### Profile
+-
+
 ### Online testing tools
 
 - [HTML Validator](https://validator.w3.org/) has been used to validate the HTML.
