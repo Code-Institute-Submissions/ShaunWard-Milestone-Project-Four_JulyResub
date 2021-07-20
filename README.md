@@ -58,7 +58,7 @@ The project is to build a fully functioning e-commerce website using Python and 
   
 #### Account Creation/Login Ability
 
-![register page](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Sign%20Up%20page.png?raw=true)
+![register page](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Sign%20Up%20page.png?raw=true =50x50)
 
 - The register page can create an account by filling in the form with an email, username and password.
 - The login page can log a current user in by providing their username or email and password.
