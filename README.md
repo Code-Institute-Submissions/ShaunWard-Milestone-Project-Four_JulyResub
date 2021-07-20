@@ -83,7 +83,9 @@ The project is to build a fully functioning e-commerce website using Python and 
 
 ![community page](https://github.com/ShaunWard/Milestone-Project-Four/blob/master/media/general_images/Community%20Page.png?raw=true)
 
--
+- The Community page show the user current topics that other user have chosen to start a conversation about. The user can click on any of these cards to either read or contribute to the conversation.
+- Each card contains a title, the subject which is an image from the shop, and a description of the topic being discussed. The date and user who started the topic are also shown.
+- Clicking the topic of interest takes the user to the comments page where they can read and add to the discussion.
 
 #### Responsive Design
 
@@ -196,7 +198,6 @@ Further manual testing was done to ensure each aspect of the application worked 
 - The product management link only appears when a superuser is logged in.
 - The navigation collaspes into the 'burger' icon at the expected screensize.
 - The search box can be used at anytime to search in the shop, the search returns any items containing the keyword.
-
 - The navigation links perform as required by there related user stories.
 
 ### Shop
