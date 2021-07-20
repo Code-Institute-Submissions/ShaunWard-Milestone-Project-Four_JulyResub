@@ -156,7 +156,7 @@ def checkout_success(request, order_number):
     sweetify.sweetalert(request, 'Order successful!',
                         text=(f'Your order number is {order_number}.'
                               'A confirmation email will be sent'
-                              'to {order.email}.'),
+                              ' to {order_email}.'),
                         persistent='Ok')
 
     if 'basket' in request.session:
