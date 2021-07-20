@@ -214,7 +214,12 @@ Further manual testing was done to ensure each aspect of the application worked 
 - The go to checkout button takes the user to the checkout screen
 
 ### Checkout
-- 
+- The checkout form is displayed correctly on the page.
+- The user is alerted if they have not filled in a required field.
+- If the user has saved information in their profile it is automatically populated as expected.
+- The basket total is calculated correctly along with the shipping and grand total.
+- The Stripe section warns the user when card information is invalid.
+- If the order fails the user is warned in red text that the payment method has failed and to try a different method.
 
 ### Online testing tools
 
