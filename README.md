@@ -220,9 +220,13 @@ Further manual testing was done to ensure each aspect of the application worked 
 - The basket total is calculated correctly along with the shipping and grand total.
 - The Stripe section warns the user when card information is invalid.
 - If the order fails the user is warned in red text that the payment method has failed and to try a different method.
+- Email confirmation is sent to the users address after checkout.
 
 ### Profile
--
+- The profile page shows the user a form to save their details.
+- The saved information the user has put in stays in the boxes until changed.
+- Any completed orders are shown on this page.
+- Clicking any of the order numbers will take the user to a breakdown of that order and warn them it is a past order using a pop up. This also has a return to shop button.
 
 ### Online testing tools
 
