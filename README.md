@@ -380,3 +380,8 @@ Signing up for Amazon Web services and creating an S3 bucket will provide the AW
 ## Acknowledgements
 
 I'd like to acknowledge my mentor, Felipe Souza Alarcon, for his support throughout this project.
+
+I am thankful for the massive amount of information available on the web to learn from.
+One of the video series I used to create some of the apps was:
+https://www.youtube.com/watch?v=B40bteAMM_M&list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi
+I have done my best to use only what I needed to and change it to suit my needs.
