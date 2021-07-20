@@ -228,6 +228,22 @@ Further manual testing was done to ensure each aspect of the application worked 
 - Any completed orders are shown on this page.
 - Clicking any of the order numbers will take the user to a breakdown of that order and warn them it is a past order using a pop up. This also has a return to shop button.
 
+### Register/Loggin page
+- If the user isn't logged in they have limited navigation buttons, one being to register.
+- The registration form requires the form to be filled in correctly in the required fields.
+- A verification email is sent requiring a link to be clicked to set up the account.
+- Going to the login page and using this information now logs the user in correctly.
+
+### Community
+- The user is shown any topics currently in the system
+- Clicking the topic takes the user to the topic comments page.
+- The community home button takes the user back, the add a comment take the user to the comments form.
+- The comment button submits the form correctly or the cancel button takes the user back.
+- If the user owns either the topic or any comments, edit and delete buttons are shown as expected.
+- The edit and delete buttons work as they are expected to.
+
+
+
 ### Online testing tools
 
 - [HTML Validator](https://validator.w3.org/) has been used to validate the HTML.
