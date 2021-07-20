@@ -185,6 +185,10 @@ The site was tested manually using Google Developer tools in the chrome broswer 
 
 Further manual testing was done to ensure each aspect of the application worked as expected.
 
+### Homepage
+
+- 
+
 ### Online testing tools
 
 - [HTML Validator](https://validator.w3.org/) has been used to validate the HTML.
