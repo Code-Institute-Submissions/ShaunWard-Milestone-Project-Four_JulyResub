@@ -242,7 +242,16 @@ Further manual testing was done to ensure each aspect of the application worked 
 - If the user owns either the topic or any comments, edit and delete buttons are shown as expected.
 - The edit and delete buttons work as they are expected to.
 
+### Product management
+- Logged in as a superuser displays the edit and delete buttons on all shop items.
+- Delete works as expected, edit takes the superuser to a form that is prefilled and can be edited as required.
+- Clicking product management in the navigation bar goes to the add product page.
+- The add product page has a blank form requiring a name, description, dimensions and a price.
+- The is sold box at this moment does not work as mention in the features left to implement.
+- The added product appears in the shop with the rest of the items as expected.
 
+### Responsiveness
+- 
 
 ### Online testing tools
 
